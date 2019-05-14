@@ -1,35 +1,30 @@
 @font-face {
-  font-family: 'Calibre';
-  src: url("../fonts/Calibre/Calibre-Regular.woff2") format("woff2"), url("../fonts/Calibre/Calibre-Regular.woff") format("woff"), url("../fonts/Calibre/Calibre-Regular.ttf") format("truetype");
+  font-family: "Calibre";
+  src: url("/resources/fonts/Calibre_regular.woff") format("woff"), url("/resources/fonts/Calibre_regular.woff2") format("woff2"), url("/resources/fonts/Calibre_regular.ttf") format("truetype");
   /* Safari, Android, iOS */
-  font-weight: 300; }
+  font-weight: "normal"; }
 @font-face {
-  font-family: 'Calibre';
-  src: url("fonts/Calibre/Calibre-Medium.woff2") format("woff2"), url("fonts/Calibre/Calibre-Medium.woff") format("woff"), url("fonts/Calibre/Calibre-Medium.ttf") format("truetype");
+  font-family: "Calibre";
+  src: url("/resources/fonts/Calibre_medium.woff") format("woff"), url("/resources/fonts/Calibre_medium.woff2") format("woff2"), url("/resources/fonts/Calibre_medium.ttf") format("truetype");
   /* Safari, Android, iOS */
-  font-weight: 400; }
+  font-weight: "medium"; }
 @font-face {
-  font-family: 'Calibre';
-  src: url("fonts/Calibre/Calibre-Semibold.woff2") format("woff2"), url("fonts/Calibre/Calibre-Semibold.woff") format("woff"), url("fonts/Calibre/Calibre-Semibold.ttf") format("truetype");
+  font-family: "Calibre";
+  src: url("/resources/fonts/Calibre_semibold.woff") format("woff"), url("/resources/fonts/Calibre_semibold.woff2") format("woff2"), url("/resources/fonts/Calibre_semibold.ttf") format("truetype");
   /* Safari, Android, iOS */
-  font-weight: 500; }
+  font-weight: "bold"; }
 @font-face {
-  font-family: 'SFMono';
-  src: url("fonts/SFMono/SFMono-Regular.woff2") format("woff2"), url("fonts/SFMono/SFMono-Regular.woff") format("woff"), url("fonts/SFMono/SFMono-Regular.ttf") format("truetype");
+  font-family: "SFMono";
+  src: url("/resources/fonts/SFMono_regular.woff") format("woff"), url("/resources/fonts/SFMono_regular.woff2") format("woff2"), url("/resources/fonts/SFMono_regular.ttf") format("truetype");
   /* Safari, Android, iOS */
-  font-weight: 300; }
+  font-weight: "normal"; }
 @font-face {
-  font-family: 'SFMono';
-  src: url("fonts/SFMono/SFMono-Medium.woff2") format("woff2"), url("fonts/SFMono/SFMono-Medium.woff") format("woff"), url("fonts/SFMono/SFMono-Medium.ttf") format("truetype");
+  font-family: "SFMono";
+  src: url("/resources/fonts/SFMono_semibold.woff") format("woff"), url("/resources/fonts/SFMono_semibold.woff2") format("woff2"), url("/resources/fonts/SFMono_semibold.ttf") format("truetype");
   /* Safari, Android, iOS */
-  font-weight: 400; }
-@font-face {
-  font-family: 'SFMono';
-  src: url("fonts/SFMono/SFMono-Semibold.woff2") format("woff2"), url("fonts/SFMono/SFMono-Semibold.woff") format("woff"), url("fonts/SFMono/SFMono-Semibold.ttf") format("truetype");
-  /* Safari, Android, iOS */
-  font-weight: 500; }
+  font-weight: "bold"; }
 * {
-  font-family: sans-serif;
+  font-family: 'Calibre';
   margin: 0;
   color: #8892b0;
   box-sizing: border-box; }
