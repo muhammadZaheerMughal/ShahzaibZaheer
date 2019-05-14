@@ -3,7 +3,7 @@
 @import 'partials/import_fonts';
 
 @function testBackground($color){
-  // @return rgba($color, 0.2);
+  // @return rgba($color, 0.15);
   @return rgba($color, 0.0);
 }
 
@@ -40,6 +40,11 @@ p{
     color: $default-text-color;
 }
 
+
+
+.container{
+  max-width: 900px;
+}
 
 
 
@@ -91,4 +96,128 @@ header{
   .heading-description{
     margin-bottom: 24px;
   }
+}
+
+section{
+  height: 100vh;
+  background: testBackground(yellow);
+  .sub-heading{
+    font-size: 1.8em;
+    color: $white;
+    position: relative;
+    background: testBackground(pink);
+    span{
+      color: $accent-color;
+      font-size: 0.6em;
+      margin-right: 16px;
+    }
+
+    &::after{
+      content: "";
+      width: 40%;
+      height: 1px;
+      background: $white;
+      position: absolute;
+      top: 0.5em;
+      margin-left: 24px;
+    }
+
+
+
+  }
+}
+
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .sub-heading{
+      margin-bottom: 48px;
+    }
+    p{
+      margin-bottom: 24px;
+    }
+    // align-items: flex-start;
+    .about-content{
+      display: flex;
+      justify-content: space-between;
+
+    }
+    .list-item-container{
+      display: flex;
+      li {
+        list-style-type: none;
+        position: relative;
+        padding-left: 10px;
+        margin: 8px;
+
+        &::before{
+          content: "\25BA \0020";
+          font-size: 0.6em;
+          position: absolute;
+          top: 0.3em;
+          left: -10px;
+          color: $accent-color;
+        }
+      }
+
+    }
+
+    .image{
+      width: $profile-image-width-height;
+      height: $profile-image-width-height;
+      position: relative;
+      background: pink;
+
+
+      img{
+        position: relative;
+        z-index: 1;
+        filter: grayscale(100%);
+
+
+      }
+      &::before{
+        content: "";
+        display: block;
+        position: absolute;
+        width: $profile-image-width-height;
+        height: $profile-image-width-height;
+        top: 16px;
+        left: 16px;
+        border: 2px solid $accent-color;
+        // background: red;
+        z-index: 0;
+      }
+      &::after{
+        // content: "";
+        // display: block;
+        // position: absolute;
+        // width: $profile-image-width-height;
+        // height: $profile-image-width-height;
+        // top: 0;
+        // left: 0;
+        // background: red;
+        // // background: rbga($accent-color,1);
+        // z-index: 2;
+      }
+    }
+    // .picture-container{
+    //     background: testBackground(pink);
+    //     position: relative;
+    //
+    //   img{
+    //     width: 200px;
+    //     height: 200px;
+    //     position: relative;
+    //     // opacity: 0.1;
+    //     background: blue;
+    //
+
+    //   }
+    //
+    //
+    // }
 }

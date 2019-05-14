@@ -52,6 +52,9 @@ p {
   width: 450px;
   color: #8892b0; }
 
+.container {
+  max-width: 900px; }
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -87,5 +90,71 @@ header {
     margin-bottom: 48px; }
   header .heading-description {
     margin-bottom: 24px; }
+
+section {
+  height: 100vh;
+  background: rgba(255, 255, 0, 0); }
+  section .sub-heading {
+    font-size: 1.8em;
+    color: #e6f1ff;
+    position: relative;
+    background: rgba(255, 192, 203, 0); }
+    section .sub-heading span {
+      color: #08f3d0;
+      font-size: 0.6em;
+      margin-right: 16px; }
+    section .sub-heading::after {
+      content: "";
+      width: 40%;
+      height: 1px;
+      background: #e6f1ff;
+      position: absolute;
+      top: 0.5em;
+      margin-left: 24px; }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .about .sub-heading {
+    margin-bottom: 48px; }
+  .about p {
+    margin-bottom: 24px; }
+  .about .about-content {
+    display: flex;
+    justify-content: space-between; }
+  .about .list-item-container {
+    display: flex; }
+    .about .list-item-container li {
+      list-style-type: none;
+      position: relative;
+      padding-left: 10px;
+      margin: 8px; }
+      .about .list-item-container li::before {
+        content: "\25BA \0020";
+        font-size: 0.6em;
+        position: absolute;
+        top: 0.3em;
+        left: -10px;
+        color: #08f3d0; }
+  .about .image {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: pink; }
+    .about .image img {
+      position: relative;
+      z-index: 1;
+      filter: grayscale(100%); }
+    .about .image::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 16px;
+      left: 16px;
+      border: 2px solid #08f3d0;
+      z-index: 0; }
 
 /*# sourceMappingURL=main.css.map */
