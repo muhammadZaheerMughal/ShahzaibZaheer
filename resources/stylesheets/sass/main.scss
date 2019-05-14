@@ -12,17 +12,17 @@
 *{
   font-family: sans-serif;
   margin: 0;
-  color: $white;
+  color: $default-text-color;
 }
 body{
   background: $background-color;
-  padding: 24px 48px;
+  padding: 24px 48px 0 180px;
+  // padding-left: 180px;
 }
 
 a{
   color: $accent-color;
   text-decoration: none;
-
 }
 
 
@@ -35,6 +35,10 @@ a{
 }
 
 
+p{
+    width: 450px;
+    color: $default-text-color;
+}
 
 
 
@@ -61,5 +65,30 @@ nav{
       }
     }
 
+  }
+}
+header{
+  background: testBackground(red);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -80px;
+
+  .heading-supporting-text{
+    color: $accent-color;
+    margin: 24px 0 8px 0;
+  }
+  .main-heading{
+    color: $white;
+    font-size: 3em;
+  }
+  .main-sub-heading{
+    font-size: 2.8em;
+    margin-bottom: 48px;
+  }
+  .heading-description{
+    margin-bottom: 24px;
   }
 }
