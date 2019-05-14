@@ -149,7 +149,8 @@ section .sub-heading {
     .about .image img {
       position: relative;
       z-index: 1;
-      filter: grayscale(100%); }
+      width: 200px;
+      height: 200px; }
     .about .image::before {
       content: "";
       display: block;
@@ -274,6 +275,8 @@ section .sub-heading {
         border-radius: 5px;
         border: none;
         background: #172a45; }
+        .contact .contact-content .contact-form input[type='text']::placeholder, .contact .contact-content .contact-form input[type='email']::placeholder, .contact .contact-content .contact-form textarea::placeholder {
+          color: #8892b0; }
       .contact .contact-content .contact-form .button {
         margin-top: 8px;
         align-self: flex-end; }
