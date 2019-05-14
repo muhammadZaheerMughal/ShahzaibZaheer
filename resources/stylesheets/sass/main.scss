@@ -11,6 +11,7 @@
 //*********************       Defaults
 *{
   font-family: 'Calibre';
+  font-weight: normal;
   margin: 0;
   color: $default-text-color;
   box-sizing: border-box;
@@ -32,11 +33,20 @@ a{
 
 
 .button{
+  font-family: $sfmono-font;
+  font-weight: normal;
+  font-size: 1em;
   background: none;
   border: 1px solid $accent-color;
   border-radius: 5px;
-  padding: 0.8em 1.5em;
+  padding: 0.7em 1.4em;
   color: $accent-color;
+
+  &:hover{
+    background: rgba($accent-color,0.1);
+    cursor: pointer;
+  }
+
 }
 
 
@@ -62,6 +72,7 @@ nav{
   display: flex;
   justify-content: flex-end;
   background: testBackground(pink);
+
   ul{
     display: flex;
     list-style: none;
@@ -69,6 +80,21 @@ nav{
     align-items: center;
     justify-content: space-around;
     li{
+      a,span{
+        font-family: $sfmono-font;
+      }
+      span{
+        margin-right: 8px;
+        color: $accent-color;
+      }
+      a{
+        color: $white;
+        &.active, &:hover{
+          color: $accent-color;
+        }
+      }
+
+
       margin: 0 24px;
       &:last-child{ // for equally dividing space
         padding-right: 24px;

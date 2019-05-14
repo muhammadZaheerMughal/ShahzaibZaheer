@@ -12,11 +12,11 @@
   }
 }
 
-@include font('Calibre','normal', '/resources/fonts/Calibre_regular');
-@include font('Calibre','medium', '/resources/fonts/Calibre_medium');
-@include font('Calibre','bold', '/resources/fonts/Calibre_semibold');
-@include font('SFMono','normal', '/resources/fonts/SFMono_regular');
-@include font('SFMono','bold', '/resources/fonts/SFMono_semibold');
+@include font('Calibre',normal, '/resources/fonts/Calibre_regular');
+@include font('Calibre',medium, '/resources/fonts/Calibre_medium');
+@include font('Calibre',bold, '/resources/fonts/Calibre_semibold');
+@include font('SFMono',normal, '/resources/fonts/SFMono_regular');
+@include font('SFMono',bold, '/resources/fonts/SFMono_semibold');
 
 
 

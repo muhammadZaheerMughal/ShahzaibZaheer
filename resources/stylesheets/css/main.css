@@ -2,29 +2,30 @@
   font-family: "Calibre";
   src: url("/resources/fonts/Calibre_regular.woff") format("woff"), url("/resources/fonts/Calibre_regular.woff2") format("woff2"), url("/resources/fonts/Calibre_regular.ttf") format("truetype");
   /* Safari, Android, iOS */
-  font-weight: "normal"; }
+  font-weight: normal; }
 @font-face {
   font-family: "Calibre";
   src: url("/resources/fonts/Calibre_medium.woff") format("woff"), url("/resources/fonts/Calibre_medium.woff2") format("woff2"), url("/resources/fonts/Calibre_medium.ttf") format("truetype");
   /* Safari, Android, iOS */
-  font-weight: "medium"; }
+  font-weight: medium; }
 @font-face {
   font-family: "Calibre";
   src: url("/resources/fonts/Calibre_semibold.woff") format("woff"), url("/resources/fonts/Calibre_semibold.woff2") format("woff2"), url("/resources/fonts/Calibre_semibold.ttf") format("truetype");
   /* Safari, Android, iOS */
-  font-weight: "bold"; }
+  font-weight: bold; }
 @font-face {
   font-family: "SFMono";
   src: url("/resources/fonts/SFMono_regular.woff") format("woff"), url("/resources/fonts/SFMono_regular.woff2") format("woff2"), url("/resources/fonts/SFMono_regular.ttf") format("truetype");
   /* Safari, Android, iOS */
-  font-weight: "normal"; }
+  font-weight: normal; }
 @font-face {
   font-family: "SFMono";
   src: url("/resources/fonts/SFMono_semibold.woff") format("woff"), url("/resources/fonts/SFMono_semibold.woff2") format("woff2"), url("/resources/fonts/SFMono_semibold.ttf") format("truetype");
   /* Safari, Android, iOS */
-  font-weight: "bold"; }
+  font-weight: bold; }
 * {
   font-family: 'Calibre';
+  font-weight: normal;
   margin: 0;
   color: #8892b0;
   box-sizing: border-box; }
@@ -41,11 +42,17 @@ a {
   text-decoration: none; }
 
 .button {
+  font-family: "SFMono";
+  font-weight: normal;
+  font-size: 1em;
   background: none;
   border: 1px solid #08f3d0;
   border-radius: 5px;
-  padding: 0.8em 1.5em;
+  padding: 0.7em 1.4em;
   color: #08f3d0; }
+  .button:hover {
+    background: rgba(8, 243, 208, 0.1);
+    cursor: pointer; }
 
 p {
   width: 450px;
@@ -67,6 +74,15 @@ nav {
     justify-content: space-around; }
     nav ul li {
       margin: 0 24px; }
+      nav ul li a, nav ul li span {
+        font-family: "SFMono"; }
+      nav ul li span {
+        margin-right: 8px;
+        color: #08f3d0; }
+      nav ul li a {
+        color: #e6f1ff; }
+        nav ul li a.active, nav ul li a:hover {
+          color: #08f3d0; }
       nav ul li:last-child {
         padding-right: 24px;
         background: rgba(255, 255, 0, 0); }
