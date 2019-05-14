@@ -168,87 +168,124 @@ section .sub-heading {
   .work .sub-heading {
     margin-bottom: 64px; }
   .work .project-item.ltr {
-    display: flex;
-    margin: 48px 0; }
-    .work .project-item.ltr .project-image img {
-      width: 520px;
-      height: 300px; }
-    .work .project-item.ltr .project-detail-container .project-title {
+    display: grid;
+    grid-template-columns: 400px 120px auto;
+    margin: 48px 0;
+    margin-bottom: 120px;
+    background: rgba(255, 192, 203, 0);
+    position: relative; }
+    .work .project-item.ltr .project-image {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      opacity: 1; }
+      .work .project-item.ltr .project-image img {
+        width: 520px;
+        height: 300px; }
+    .work .project-item.ltr .project-title {
+      grid-column-start: 3;
+      grid-column-end: 4;
       font-size: 2em;
       color: #e6f1ff;
       background: rgba(255, 0, 0, 0);
       text-align: right;
       margin-bottom: 16px; }
-    .work .project-item.ltr .project-detail-container .project-description {
+    .work .project-item.ltr .project-description {
+      grid-column-start: 2;
+      grid-column-end: 4;
       background: #172a45;
       padding: 24px;
-      transform: translateX(-20%); }
-    .work .project-item.ltr .project-detail-container .project-technologies {
+      position: relative;
+      z-index: 2; }
+    .work .project-item.ltr .project-technologies {
+      grid-column-start: 3;
+      grid-column-end: 4;
       margin-top: 16px;
       list-style: none;
       display: flex;
       justify-content: flex-end; }
-      .work .project-item.ltr .project-detail-container .project-technologies li {
+      .work .project-item.ltr .project-technologies li {
         margin: 0 8px; }
-        .work .project-item.ltr .project-detail-container .project-technologies li::after {
+        .work .project-item.ltr .project-technologies li::after {
           content: ",";
           font-size: 1.2em; }
-    .work .project-item.ltr .project-detail-container .project-links {
+    .work .project-item.ltr .project-links {
+      grid-column-start: 3;
+      grid-column-end: 4;
       display: flex;
       justify-content: flex-end; }
-      .work .project-item.ltr .project-detail-container .project-links svg {
+      .work .project-item.ltr .project-links svg {
         width: 24px;
         height: 24px;
         box-sizing: content-box;
         padding: 16px 8px;
         fill: #8892b0; }
-        .work .project-item.ltr .project-detail-container .project-links svg:hover {
+        .work .project-item.ltr .project-links svg:hover {
           fill: #08f3d0; }
   .work .project-item.rtl {
-    display: flex;
-    margin: 48px 0; }
+    display: grid;
+    grid-template-columns: auto 120px 400px;
+    margin: 48px 0;
+    margin-bottom: 120px;
+    background: rgba(255, 192, 203, 0);
+    position: relative; }
     .work .project-item.rtl .project-image {
-      order: 1; }
+      grid-column-start: 3;
+      grid-column-end: 2;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      opacity: 1; }
       .work .project-item.rtl .project-image img {
         width: 520px;
         height: 300px; }
-    .work .project-item.rtl .project-detail-container {
-      order: 0; }
-      .work .project-item.rtl .project-detail-container .project-title {
-        font-size: 2em;
-        color: #e6f1ff;
-        text-align: left;
-        margin-bottom: 16px; }
-      .work .project-item.rtl .project-detail-container .project-description {
-        background: #172a45;
-        padding: 24px;
-        transform: translateX(20%); }
-      .work .project-item.rtl .project-detail-container .project-technologies {
-        padding: 0;
-        margin-top: 16px;
-        background: rgba(255, 0, 0, 0);
-        list-style: none;
-        display: flex;
-        justify-content: flex-start; }
-        .work .project-item.rtl .project-detail-container .project-technologies li {
-          margin: 0 8px;
-          background: rgba(255, 192, 203, 0); }
-          .work .project-item.rtl .project-detail-container .project-technologies li::after {
-            content: ",";
-            font-size: 1.2em; }
-      .work .project-item.rtl .project-detail-container .project-links {
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: row-reverse; }
-        .work .project-item.rtl .project-detail-container .project-links svg {
-          width: 24px;
-          height: 24px;
-          box-sizing: content-box;
-          padding: 16px 8px;
-          fill: #8892b0;
-          transform: scaleX(-1); }
-          .work .project-item.rtl .project-detail-container .project-links svg:hover {
-            fill: #08f3d0; }
+    .work .project-item.rtl .project-title {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      font-size: 2em;
+      color: #e6f1ff;
+      background: rgba(255, 0, 0, 0);
+      text-align: left;
+      margin-bottom: 16px; }
+    .work .project-item.rtl .project-description {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      background: #172a45;
+      padding: 24px;
+      position: relative;
+      z-index: 2; }
+    .work .project-item.rtl .project-technologies {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      margin-top: 16px;
+      list-style: none;
+      display: flex;
+      justify-content: flex-start;
+      padding: 0; }
+      .work .project-item.rtl .project-technologies li {
+        margin: 0 8px; }
+        .work .project-item.rtl .project-technologies li::after {
+          content: ",";
+          font-size: 1.2em; }
+    .work .project-item.rtl .project-links {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row-reverse; }
+      .work .project-item.rtl .project-links svg {
+        width: 24px;
+        height: 24px;
+        box-sizing: content-box;
+        padding: 16px 8px;
+        fill: #8892b0;
+        transform: scaleX(-1); }
+        .work .project-item.rtl .project-links svg:hover {
+          fill: #08f3d0; }
   .work .button {
     margin: 0 auto;
     display: block; }
