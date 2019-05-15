@@ -6,7 +6,9 @@
   // @return rgba($color, 0.15);
   @return rgba($color, 0.0);
 }
-
+@function getGutter($multiple_of_8){
+  @return $multiple_of_8*8px;
+}
 
 //*********************       Defaults
 *{
@@ -22,7 +24,7 @@
 body{
   background: $background-color;
   // padding: 24px 48px 0 180px;
-  padding: 24px 48px 0 0px;
+  // padding: 24px 48px 0 0px;
   // padding-left: 180px;
 }
 
@@ -45,6 +47,10 @@ a{
   &:hover{
     background: rgba($accent-color,0.1);
     cursor: pointer;
+  }
+
+  @media (min-width: 100px) and (max-width: 319px){
+    font-size: 0.7em;
   }
 
 }
@@ -116,7 +122,6 @@ header{
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-top: -50px;
 
   .heading-supporting-text{
     color: $accent-color;
@@ -126,20 +131,118 @@ header{
   }
   .main-heading{
     color: $white;
-    font-size: 5em;
     font-weight: bold;
-
-
   }
   .main-sub-heading{
-    font-size: 4.9em;
-    margin-bottom: 48px;
     font-weight: bold;
-    line-height: 0.5em;
   }
   .heading-description{
+    margin-top: 16px;
     margin-bottom: 24px;
-    font-weight: normal;
+    font-weight: 300;
+  }
+
+
+
+  @media (min-width: 100px) and (max-width: 319px){
+    padding: getGutter(1);
+
+    .heading-supporting-text{
+      font-size: 0.8em;
+    }
+    .main-heading{
+      font-size: 2em;
+      line-height: 1em;
+    }
+    .main-sub-heading{
+      font-size: 1.4em;
+      line-height: 1em;
+    }
+    .heading-description{
+      font-size: 0.7em;
+    }
+    .button{
+      // align-self: center;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 499px){
+    padding: getGutter(1);
+
+    .heading-supporting-text{
+      font-size: 1em;
+    }
+    .main-heading{
+      font-size: 3em;
+      line-height: 1em;
+    }
+    .main-sub-heading{
+      font-size: 2.5em;
+      line-height: 1em;
+    }
+    .heading-description{
+      font-size: 1em;
+    }
+    .button{
+      // align-self: center;
+    }
+  }
+  @media (min-width: 500px) and (max-width: 689px){
+    padding: getGutter(2);
+    .heading-supporting-text{
+      font-size: 1em;
+    }
+    .main-heading{
+      font-size: 3em;
+      line-height: 1em;
+    }
+    .main-sub-heading{
+      font-size: 2.5em;
+      line-height: 1em;
+    }
+    .heading-description{
+      font-size: 1em;
+      max-width: 500px;
+    }
+    .button{
+      // align-self: center;
+    }
+  }
+  @media (min-width: 690px) and (max-width: 1199px) {
+    padding-left: getGutter(5);
+    .heading-supporting-text{
+      font-size: 1.5em;
+    }
+    .main-heading{
+      font-size: 4em;
+      line-height: 1em;
+    }
+    .main-sub-heading{
+      font-size: 3.5em;
+      line-height: 1em;
+    }
+    .heading-description{
+      font-size: 1.2em;
+      max-width: 500px;
+    }
+
+  }
+  @media (min-width: 1200px){
+    padding-left: getGutter(5);
+    .heading-supporting-text{
+      font-size: 1.7em;
+    }
+    .main-heading{
+      font-size: 5em;
+      line-height: 1em;
+    }
+    .main-sub-heading{
+      font-size: 4.5em;
+      line-height: 1em;
+    }
+    .heading-description{
+      font-size: 1.4em;
+      max-width: 600px;
+    }
   }
 }
 

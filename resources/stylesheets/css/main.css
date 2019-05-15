@@ -34,8 +34,7 @@
   box-sizing: inherit; }
 
 body {
-  background: #0a192f;
-  padding: 24px 48px 0 0px; }
+  background: #0a192f; }
 
 a {
   color: #08f3d0;
@@ -53,6 +52,9 @@ a {
   .button:hover {
     background: rgba(8, 243, 208, 0.1);
     cursor: pointer; }
+  @media (min-width: 100px) and (max-width: 319px) {
+    .button {
+      font-size: 0.7em; } }
 
 p {
   color: #8892b0; }
@@ -95,8 +97,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  margin-top: -50px; }
+  justify-content: center; }
   header .heading-supporting-text {
     color: #08f3d0;
     margin: 24px 0 8px 0;
@@ -104,16 +105,81 @@ header {
     font-weight: normal; }
   header .main-heading {
     color: #e6f1ff;
-    font-size: 5em;
     font-weight: bold; }
   header .main-sub-heading {
-    font-size: 4.9em;
-    margin-bottom: 48px;
-    font-weight: bold;
-    line-height: 0.5em; }
+    font-weight: bold; }
   header .heading-description {
+    margin-top: 16px;
     margin-bottom: 24px;
-    font-weight: normal; }
+    font-weight: 300; }
+  @media (min-width: 100px) and (max-width: 319px) {
+    header {
+      padding: 8px; }
+      header .heading-supporting-text {
+        font-size: 0.8em; }
+      header .main-heading {
+        font-size: 2em;
+        line-height: 1em; }
+      header .main-sub-heading {
+        font-size: 1.4em;
+        line-height: 1em; }
+      header .heading-description {
+        font-size: 0.7em; } }
+  @media (min-width: 320px) and (max-width: 499px) {
+    header {
+      padding: 8px; }
+      header .heading-supporting-text {
+        font-size: 1em; }
+      header .main-heading {
+        font-size: 3em;
+        line-height: 1em; }
+      header .main-sub-heading {
+        font-size: 2.5em;
+        line-height: 1em; }
+      header .heading-description {
+        font-size: 1em; } }
+  @media (min-width: 500px) and (max-width: 689px) {
+    header {
+      padding: 16px; }
+      header .heading-supporting-text {
+        font-size: 1em; }
+      header .main-heading {
+        font-size: 3em;
+        line-height: 1em; }
+      header .main-sub-heading {
+        font-size: 2.5em;
+        line-height: 1em; }
+      header .heading-description {
+        font-size: 1em;
+        max-width: 500px; } }
+  @media (min-width: 690px) and (max-width: 1199px) {
+    header {
+      padding-left: 40px; }
+      header .heading-supporting-text {
+        font-size: 1.5em; }
+      header .main-heading {
+        font-size: 4em;
+        line-height: 1em; }
+      header .main-sub-heading {
+        font-size: 3.5em;
+        line-height: 1em; }
+      header .heading-description {
+        font-size: 1.2em;
+        max-width: 500px; } }
+  @media (min-width: 1200px) {
+    header {
+      padding-left: 40px; }
+      header .heading-supporting-text {
+        font-size: 1.7em; }
+      header .main-heading {
+        font-size: 5em;
+        line-height: 1em; }
+      header .main-sub-heading {
+        font-size: 4.5em;
+        line-height: 1em; }
+      header .heading-description {
+        font-size: 1.4em;
+        max-width: 600px; } }
 
 section .sub-heading {
   font-family: "SFMono";
