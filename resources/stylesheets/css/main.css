@@ -55,11 +55,10 @@ a {
     cursor: pointer; }
 
 p {
-  width: 550px;
   color: #8892b0; }
 
 .container {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto; }
 
 nav {
