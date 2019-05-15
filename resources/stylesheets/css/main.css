@@ -55,7 +55,7 @@ a {
     cursor: pointer; }
 
 p {
-  width: 450px;
+  width: 550px;
   color: #8892b0; }
 
 .container {
@@ -75,7 +75,8 @@ nav {
     nav ul li {
       margin: 0 24px; }
       nav ul li a, nav ul li span {
-        font-family: "SFMono"; }
+        font-family: "SFMono";
+        font-size: 0.9em; }
       nav ul li span {
         margin-right: 8px;
         color: #08f3d0; }
@@ -86,6 +87,8 @@ nav {
       nav ul li:last-child {
         padding-right: 24px;
         background: rgba(255, 255, 0, 0); }
+  nav .button {
+    font-size: 0.8em; }
 
 header {
   background: rgba(255, 0, 0, 0);
@@ -94,25 +97,34 @@ header {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-top: -80px; }
+  margin-top: -50px; }
   header .heading-supporting-text {
     color: #08f3d0;
-    margin: 24px 0 8px 0; }
+    margin: 24px 0 8px 0;
+    font-family: "SFMono";
+    font-weight: normal; }
   header .main-heading {
     color: #e6f1ff;
-    font-size: 3em; }
+    font-size: 5em;
+    font-weight: bold; }
   header .main-sub-heading {
-    font-size: 2.8em;
-    margin-bottom: 48px; }
+    font-size: 4.9em;
+    margin-bottom: 48px;
+    font-weight: bold;
+    line-height: 0.5em; }
   header .heading-description {
-    margin-bottom: 24px; }
+    margin-bottom: 24px;
+    font-weight: normal; }
 
 section .sub-heading {
-  font-size: 1.8em;
+  font-family: "SFMono";
+  font-weight: bold;
+  font-size: 2em;
   color: #e6f1ff;
   position: relative;
   background: rgba(255, 192, 203, 0); }
   section .sub-heading span {
+    font-family: "SFMono";
     color: #08f3d0;
     font-size: 0.6em;
     margin-right: 16px; }
@@ -122,7 +134,7 @@ section .sub-heading {
     height: 1px;
     background: #e6f1ff;
     position: absolute;
-    top: 0.5em;
+    top: 0.6em;
     margin-left: 24px; }
 
 .about {
@@ -144,12 +156,12 @@ section .sub-heading {
       list-style-type: none;
       position: relative;
       padding-left: 10px;
-      margin: 8px; }
+      margin: 4px; }
       .about .list-item-container li::before {
         content: "\25BA \0020";
         font-size: 0.6em;
         position: absolute;
-        top: 0.3em;
+        top: 0.2em;
         left: -10px;
         color: #08f3d0; }
   .about .image {
@@ -161,7 +173,8 @@ section .sub-heading {
       position: relative;
       z-index: 1;
       width: 200px;
-      height: 200px; }
+      height: 200px;
+      border-radius: 2px; }
     .about .image::before {
       content: "";
       display: block;
@@ -172,10 +185,26 @@ section .sub-heading {
       left: 16px;
       border: 2px solid #08f3d0;
       z-index: 0; }
+    .about .image::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      top: 0;
+      left: 0;
+      background: #08f3d0;
+      z-index: 2;
+      opacity: 0.5; }
+    .about .image:hover::before {
+      top: 8px;
+      left: 8px; }
+    .about .image:hover::after {
+      opacity: 0; }
 
 .work {
   background: rgba(0, 0, 255, 0);
-  padding-top: 100px; }
+  padding: 100px 0; }
   .work .sub-heading {
     margin-bottom: 64px; }
   .work .project-item.ltr {
@@ -197,6 +226,8 @@ section .sub-heading {
         width: 520px;
         height: 300px; }
     .work .project-item.ltr .project-title {
+      font-family: "SFMono";
+      font-weight: bold;
       grid-column-start: 3;
       grid-column-end: 4;
       font-size: 2em;
@@ -210,19 +241,22 @@ section .sub-heading {
       background: #172a45;
       padding: 24px;
       position: relative;
-      z-index: 2; }
+      z-index: 2;
+      margin-bottom: 16px; }
     .work .project-item.ltr .project-technologies {
       grid-column-start: 3;
       grid-column-end: 4;
-      margin-top: 16px;
       list-style: none;
       display: flex;
       justify-content: flex-end; }
       .work .project-item.ltr .project-technologies li {
-        margin: 0 8px; }
+        margin: 0 8px;
+        font-family: "SFMono"; }
         .work .project-item.ltr .project-technologies li::after {
           content: ",";
           font-size: 1.2em; }
+        .work .project-item.ltr .project-technologies li:last-child:after {
+          content: ""; }
     .work .project-item.ltr .project-links {
       grid-column-start: 3;
       grid-column-end: 4;
@@ -255,6 +289,8 @@ section .sub-heading {
         width: 520px;
         height: 300px; }
     .work .project-item.rtl .project-title {
+      font-family: "SFMono";
+      font-weight: bold;
       grid-column-start: 1;
       grid-column-end: 2;
       font-size: 2em;
@@ -268,20 +304,23 @@ section .sub-heading {
       background: #172a45;
       padding: 24px;
       position: relative;
-      z-index: 2; }
+      z-index: 2;
+      margin-bottom: 16px; }
     .work .project-item.rtl .project-technologies {
       grid-column-start: 1;
       grid-column-end: 2;
-      margin-top: 16px;
       list-style: none;
       display: flex;
       justify-content: flex-start;
       padding: 0; }
       .work .project-item.rtl .project-technologies li {
+        font-family: "SFMono";
         margin: 0 8px; }
         .work .project-item.rtl .project-technologies li::after {
           content: ",";
           font-size: 1.2em; }
+        .work .project-item.rtl .project-technologies li:last-child:after {
+          content: ""; }
     .work .project-item.rtl .project-links {
       grid-column-start: 1;
       grid-column-end: 2;
