@@ -18,7 +18,7 @@
 }
 body{
   background: $background-color;
-  padding: getGutter(3);
+  padding: getGutter(1);
 }
 
 a{
@@ -46,6 +46,7 @@ a{
 
 p{
     // width: 550px;
+    font-size: 0.8em;
     color: $default-text-color;
 }
 
@@ -57,7 +58,29 @@ p{
 }
 
 
-
+.sub-heading{
+  font-size: 1.5em;
+  position: relative;
+  text-align: center;
+  font-family: $sfmono-font;
+  font-weight: bold;
+  color: $white;
+  margin: getGutter(2) 0;
+  span{
+    font-family: $sfmono-font;
+    color: $accent-color;
+  }
+  &::after{
+    content: "";
+    width: 40%;
+    height: 1px;
+    background: $white;
+    position: absolute;
+    top: 0.7em;
+    margin-left: getGutter(1);
+    display: none;
+  }
+}
 
 
 
@@ -109,55 +132,43 @@ header{
     color: $accent-color;
     font-family: $sfmono-font;
     font-weight: normal;
+    font-size: 0.8em;
+    margin-bottom: getGutter(1);
   }
   .main-heading{
     color: $white;
     font-weight: bold;
+    font-size: 2em;
+    line-height: 1em;
+    // margin-bottom: getGutter(1);
   }
   .main-sub-heading{
     font-weight: bold;
+    font-size: 1.8em;
+    line-height: 1em;
+    margin-bottom: getGutter(4);
+
   }
   .heading-description{
     font-weight: 300;
+    margin-bottom: getGutter(2);
+  }
+  .button{
+    margin: 0 auto;
   }
 
 
 
 }
 
-section{
-  .sub-heading{
-    font-family: $sfmono-font;
-    font-weight: bold;
-    color: $white;
-    position: relative;
-    span{
-      font-family: $sfmono-font;
-      color: $accent-color;
-    }
-
-    &::after{
-      content: "";
-      width: 40%;
-      height: 1px;
-      background: $white;
-      position: absolute;
-    }
-
-
-
-  }
-}
 
 .about{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    .sub-heading{
-    }
-    p{
-    }
+    justify-content: flex-start;
+    background: testBackground(red);
+
     // align-items: flex-start;
     .about-content{
       display: flex;
