@@ -1,25 +1,24 @@
 
 @import 'partials/variables';
 @import 'partials/import_fonts';
-@import 'partials/media_queries';
 
 
 //*********************       Defaults
 *{
   font-family: 'Calibre';
   font-weight: normal;
+  font-size: 16px;
   margin: 0;
   color: $default-text-color;
   box-sizing: border-box;
+  // background: testBackground(yellow);
 }
 *::after,*::before{
   box-sizing: inherit;
 }
 body{
   background: $background-color;
-  // padding: 24px 48px 0 180px;
-  // padding: 24px 48px 0 0px;
-  // padding-left: 180px;
+  padding: getGutter(3);
 }
 
 a{
@@ -31,13 +30,12 @@ a{
 .button{
   font-family: $sfmono-font;
   font-weight: normal;
-  font-size: 1em;
   background: none;
   border: 1px solid $accent-color;
   border-radius: 5px;
-  padding: 0.7em 1.4em;
+  padding: 0.5em 1em;
   color: $accent-color;
-
+  font-size: 0.8em;
   &:hover{
     background: rgba($accent-color,0.1);
     cursor: pointer;
@@ -67,22 +65,21 @@ p{
 nav{
   display: flex;
   justify-content: flex-end;
-  background: testBackground(pink);
-
+  margin-right: getGutter(3);
   ul{
     display: flex;
     list-style: none;
-    background: testBackground(red);
     align-items: center;
     justify-content: space-around;
     li{
+      margin: 0 getGutter(3);
       a,span{
         font-family: $sfmono-font;
-        font-size: 0.9em;
+        font-size: 0.8em;
       }
       span{
-        margin-right: 8px;
         color: $accent-color;
+        margin-right: getGutter(1);
       }
       a{
         color: $white;
@@ -91,22 +88,17 @@ nav{
         }
       }
 
-
-      margin: 0 24px;
       &:last-child{ // for equally dividing space
         padding-right: 24px;
-        background: testBackground(yellow);
       }
     }
 
   }
   .button{
-    font-size: 0.8em;
   }
 }
 
 header{
-  background: testBackground(red);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -115,7 +107,6 @@ header{
 
   .heading-supporting-text{
     color: $accent-color;
-    margin: 24px 0 8px 0;
     font-family: $sfmono-font;
     font-weight: normal;
   }
@@ -127,8 +118,6 @@ header{
     font-weight: bold;
   }
   .heading-description{
-    margin-top: 16px;
-    margin-bottom: 24px;
     font-weight: 300;
   }
 
@@ -140,15 +129,11 @@ section{
   .sub-heading{
     font-family: $sfmono-font;
     font-weight: bold;
-    font-size: 2em;
     color: $white;
     position: relative;
-    background: testBackground(pink);
     span{
       font-family: $sfmono-font;
       color: $accent-color;
-      font-size: 0.6em;
-      margin-right: 16px;
     }
 
     &::after{
@@ -157,8 +142,6 @@ section{
       height: 1px;
       background: $white;
       position: absolute;
-      top: 0.6em;
-      margin-left: 24px;
     }
 
 
@@ -167,21 +150,20 @@ section{
 }
 
 .about{
-    background: testBackground(yellow);
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     .sub-heading{
-      margin-bottom: 48px;
     }
     p{
-      margin-bottom: 24px;
     }
     // align-items: flex-start;
     .about-content{
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      // justify-content: flex-start;
 
     }
 
@@ -191,7 +173,6 @@ section{
         list-style-type: none;
         position: relative;
         padding-left: 10px;
-        margin: 4px;
 
         &::before{
           content: "\25BA \0020";
@@ -209,8 +190,6 @@ section{
       width: $profile-image-width-height;
       height: $profile-image-width-height;
       position: relative;
-      margin-right: 16px ;
-
 
       img{
         position: relative;
@@ -264,19 +243,13 @@ section{
 }
 
 .work{
-  background: testBackground(blue) ;
-  padding: 100px 0;
 
 
   .sub-heading{
-    margin-bottom: 64px;
   }
   .project-item.ltr{
     display: grid;
     grid-template-columns: 400px 120px auto;
-    margin: 48px 0;
-    margin-bottom: 120px;
-    background: testBackground(pink);
     position: relative;
 
     .project-image{
@@ -289,8 +262,8 @@ section{
       opacity: 1;
 
       img{
-        width: 520px;
-        height: 300px
+        width: $project-image-width;
+        height: $project-image-height;
       }
     }
     .project-title{
@@ -298,11 +271,8 @@ section{
       font-weight: bold;
       grid-column-start: 3;
       grid-column-end: 4;
-      font-size: 2em;
       color: $white;
-      background: testBackground(red);
       text-align: right;
-      margin-bottom: 16px;
     }
 
     .project-description{
@@ -314,7 +284,6 @@ section{
       padding: 24px;
       position: relative;
       z-index: 2;
-      margin-bottom: 16px;
 
       // top: -100px;
       // transform: translateX(-20%);
@@ -327,7 +296,6 @@ section{
         justify-content: flex-end;
 
         li{
-          margin: 0 8px;
           font-family: $sfmono-font;
           &::after{
             content: ",";
@@ -362,9 +330,6 @@ section{
   .project-item.rtl{
     display: grid;
     grid-template-columns: auto 120px 400px ;
-    margin: 48px 0;
-    margin-bottom: 120px;
-    background: testBackground(pink);
     position: relative;
 
     .project-image{
@@ -377,8 +342,8 @@ section{
       opacity: 1;
 
       img{
-        width: 520px;
-        height: 300px
+        width: $project-image-width;
+        height: $project-image-height;
       }
     }
     .project-title{
@@ -386,11 +351,8 @@ section{
       font-weight: bold;
       grid-column-start: 1;
       grid-column-end: 2;
-      font-size: 2em;
       color: $white;
-      background: testBackground(red);
       text-align: left;
-      margin-bottom: 16px;
     }
 
     .project-description{
@@ -400,7 +362,6 @@ section{
       padding: 24px;
       position: relative;
       z-index: 2;
-      margin-bottom: 16px;
       // top: -100px;
       // transform: translateX(-20%);
     }
@@ -413,7 +374,6 @@ section{
         padding: 0;
         li{
           font-family: $sfmono-font;
-          margin: 0 8px;
           &::after{
             content: ",";
             font-size: 1.2em;
@@ -449,16 +409,15 @@ section{
   }
 }
 .contact{
-    padding-top: 100px;
-    background: testBackground(yellow) ;
     height: 100vh;
 
     .sub-heading{
-      margin-bottom: 64px;
     }
     .contact-content{
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
 
       .contact-form{
@@ -484,7 +443,6 @@ section{
 
 
         .button{
-          margin-top: 8px;
           align-self: flex-end;
         }
       }
@@ -492,20 +450,15 @@ section{
 
     }
     .contact-info{
-
       list-style: none;
-      background: testBackground(red);
       padding: 0;
       flex-basis: 50%;
       li{
         display: flex;
         align-items: center;
-        margin: 24px;
         img{
           width: 32px;
           height: 32px;
-          margin-right: 24px;
-
         }
       }
     }
