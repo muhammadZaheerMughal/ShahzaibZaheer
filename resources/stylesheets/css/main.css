@@ -137,7 +137,7 @@ header {
     margin: 0 auto; }
 
 .about {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -145,9 +145,15 @@ header {
   .about .about-content {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
+  .about p {
+    margin: 8px 0; }
   .about .list-item-container {
-    display: flex; }
+    margin: 8px 0; }
+    .about .list-item-container ul {
+      padding: 0 16px;
+      margin: 0; }
     .about .list-item-container li {
       list-style-type: none;
       position: relative;
@@ -162,7 +168,8 @@ header {
   .about .image {
     width: 100px;
     height: 100px;
-    position: relative; }
+    position: relative;
+    margin-bottom: 32px; }
     .about .image img {
       position: relative;
       z-index: 1;
@@ -314,7 +321,8 @@ header {
   display: block; }
 
 .contact {
-  height: 100vh; }
+  min-height: 100vh;
+  background: rgba(255, 255, 0, 0.15); }
   .contact .contact-content {
     display: flex;
     flex-direction: column;
@@ -323,14 +331,18 @@ header {
     .contact .contact-content .contact-form {
       display: flex;
       flex-direction: column;
-      flex-basis: 40%; }
+      justify-content: center;
+      align-items: stretch; }
       .contact .contact-content .contact-form .form-item {
-        display: flex; }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch; }
       .contact .contact-content .contact-form input[type='text'], .contact .contact-content .contact-form input[type='email'], .contact .contact-content .contact-form textarea {
         width: 100%;
         padding: 16px;
-        margin: 4px;
-        border-radius: 5px;
+        margin: 2px;
+        border-radius: 2px;
         border: none;
         background: #172a45; }
         .contact .contact-content .contact-form input[type='text']::placeholder, .contact .contact-content .contact-form input[type='email']::placeholder, .contact .contact-content .contact-form textarea::placeholder {
