@@ -9,3 +9,12 @@ $profile-image-width-height : 200px;
 $project-description-background: #172a45;
 $sfmono-font : "SFMono";
 $calibre-font: 'Calibre';
+
+
+@function getGutter($multiple_of_8){
+  @return $multiple_of_8*8px;
+}
+@function testBackground($color){
+  // @return rgba($color, 0.15);
+  @return rgba($color, 0.0);
+}
