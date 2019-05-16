@@ -12,16 +12,16 @@
 <body>
     <nav>
       <ul>
-        <li><a class="active" href="#"><span>01.</span>Home</a></li>
-        <li><a href="#"><span>02.</span>About</a></li>
-        <li><a href="#"><span>03.</span>Work</a></li>
-        <li><a href="#"><span>04.</span>Contact</a></li>
+        <li><a class="active" href="#home"><span>01.</span>Home</a></li>
+        <li><a href="#about"><span>02.</span>About</a></li>
+        <li><a href="#work"><span>03.</span>Work</a></li>
+        <li><a href="#contact"><span>04.</span>Contact</a></li>
       </ul>
       <button type="button" class="button">Resume</button>
     </nav>
 
     <div class="container">
-    <header>
+    <header id="home">
       <p class="heading-supporting-text">Hi my name is</p>
       <h1 class="main-heading">Shahzaib Zaheer.</h1>
       <h2 class="main-sub-heading">Lorem ipsum lorem ipsum</h2>
@@ -29,7 +29,7 @@
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       <button type="button" class="button">Contact Me</button>
     </header>
-    <section class="about">
+    <section class="about" id="about">
       <h3 class="sub-heading"><span>01.</span>About me</h3>
       <div class="about-content">
         <div class="picture-container">
@@ -61,9 +61,49 @@
         </div>
       </div>
     </section>
-    <section class="work">
+    <section class="work" id="work">
       <h3 class="sub-heading"><span>02.</span>My Work</h3>
       <div class="project-items-container">
+        <div class="project-item ltr">
+          <div class="project-image">
+            <img src="https://picsum.photos/520/320" alt="">
+          </div>
+          <h3 class="project-title">Project title</h3>
+          <div class="project-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <ul class="project-technologies">
+            <li>React</li>
+            <li>Laravel</li>
+            <li>Php</li>
+            <li>Css</li>
+            <li>Sass</li>
+          </ul>
+          <div class="project-links">
+            <a href="#"><svg><use href="#github-icon" /></svg></a>
+            <a href="#"><svg><use href="#external-link-icon" /></svg></a>
+          </div>
+        </div>
+        <div class="project-item rtl">
+          <div class="project-image">
+            <img src="https://picsum.photos/520/320" alt="">
+          </div>
+          <h3 class="project-title">Project title</h3>
+          <div class="project-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <ul class="project-technologies">
+            <li>React</li>
+            <li>Laravel</li>
+            <li>Php</li>
+            <li>Css</li>
+            <li>Sass</li>
+          </ul>
+          <div class="project-links">
+            <a href="#"><svg><use href="#github-icon" /></svg></a>
+            <a href="#"><svg><use href="#external-link-icon" /></svg></a>
+          </div>
+        </div>
         <div class="project-item ltr">
           <div class="project-image">
             <img src="https://picsum.photos/520/320" alt="">
@@ -107,7 +147,7 @@
       </div>
       <button type="button" class="button">Load More</button>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
       <h3 class="sub-heading"><span>03.</span>Contact Me</h3>
       <div class="contact-content">
         <form class="contact-form" action="index.html" method="post">
