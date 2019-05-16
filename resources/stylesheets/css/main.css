@@ -175,15 +175,15 @@ header {
     .about .image img {
       position: relative;
       z-index: 1;
-      width: 100px;
-      height: 100px;
+      width: 100%;
+      height: 100%;
       border-radius: 2px; }
     .about .image::before {
       content: "";
       display: block;
       position: absolute;
-      width: 100px;
-      height: 100px;
+      width: 100%;
+      height: 100%;
       top: 16px;
       left: 16px;
       border: 2px solid #08f3d0;
@@ -192,8 +192,8 @@ header {
       content: "";
       display: block;
       position: absolute;
-      width: 100px;
-      height: 100px;
+      width: 100%;
+      height: 100%;
       top: 0;
       left: 0;
       background: #08f3d0;
@@ -292,5 +292,53 @@ header {
         width: 24px;
         height: 24px;
         margin-right: 16px; }
+
+@media (min-width: 320px) and (max-width: 499px) {
+  .sub-heading {
+    font-size: 2.5em; }
+
+  p {
+    font-size: 1em; }
+
+  header .main-heading {
+    font-size: 3em; }
+  header .main-sub-heading {
+    font-size: 2.5em; }
+  header .button {
+    margin: 0; } }
+@media (min-width: 500px) {
+  body {
+    padding-left: 16px;
+    padding-right: 16px; }
+
+  .sub-heading {
+    font-size: 3em; }
+
+  p {
+    font-size: 1.2em;
+    width: 500px; }
+
+  .button {
+    font-size: 1em; }
+
+  header .heading-supporting-text {
+    font-size: 1em; }
+  header .main-heading {
+    font-size: 4em; }
+  header .main-sub-heading {
+    font-size: 3em; }
+  header .button {
+    margin: 0; }
+
+  .about .image {
+    width: 200px;
+    height: 200px; }
+
+  .work .project-items-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .work .project-items-container .project-item {
+      flex-basis: 48%; } }
 
 /*# sourceMappingURL=main.css.map */
