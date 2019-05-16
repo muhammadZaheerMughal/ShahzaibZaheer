@@ -15,5 +15,5 @@ $calibre-font: 'Calibre';
   @return $multiple_of_8*8px;
 }
 @function testBackground($color){
-  @return rgba($color, 0.0);
+  @return rgba($color, 0.1);
 }
