@@ -18,6 +18,7 @@
 body{
   background: $background-color;
   padding: getGutter(1);
+  // margin-top: getGutter(4);
 }
 
 a{
@@ -89,7 +90,7 @@ nav{
   display: flex;
   justify-content: flex-end;
   margin-right: getGutter(3);
-  margin-top: getGutter(4);
+  display: none;
   ul{
     display: flex;
     list-style: none;
@@ -128,7 +129,7 @@ header{
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-top: getGutter(-8);
+  // margin-top: getGutter(-8);
   .heading-supporting-text{
     color: $accent-color;
     font-family: $sfmono-font;
@@ -535,6 +536,14 @@ header{
   }
 }
 @media (min-width : 800px ){
+  nav{
+    display: flex;
+    margin-top: getGutter(2);
+  }
+  header{
+    margin-top: getGutter(-4);
+  }
+
   .contact{
     .contact-content{
       .contact-info{
