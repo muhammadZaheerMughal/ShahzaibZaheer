@@ -192,4 +192,22 @@ LOAD_PROJECTS_BTN.click(function(){
           disableLoadProjectButton();
         }
   }
+
+
+
+
+
+
+
+
+
+  /************** Make nav active on scroll
+  *************************************/
+
+
+
+
+
+
+
 });
