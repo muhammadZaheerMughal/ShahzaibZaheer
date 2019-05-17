@@ -40,6 +40,10 @@ a{
     background: rgba($accent-color,0.1);
     cursor: pointer;
   }
+  &:disabled{
+    opacity: 0.3;
+    cursor:no-drop;
+  }
 
 }
 
@@ -283,6 +287,8 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: getGutter(40);
+  // background: red;
 
 }
 
@@ -620,6 +626,9 @@ header{
     }
   }
   .work{
+    .sub-heading{
+      align-self: flex-start;
+    }
     padding-bottom: getGutter(2);
     .project-items-container{
       display: flex;

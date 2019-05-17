@@ -54,6 +54,9 @@ a {
   .button:hover {
     background: rgba(8, 243, 208, 0.1);
     cursor: pointer; }
+  .button:disabled {
+    opacity: 0.3;
+    cursor: no-drop; }
 
 p {
   font-size: 0.8em;
@@ -223,7 +226,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 320px; }
 
 @media (max-width: 900px) {
   .work {
@@ -447,6 +451,8 @@ header {
 
   .work {
     padding-bottom: 16px; }
+    .work .sub-heading {
+      align-self: flex-start; }
     .work .project-items-container {
       display: flex;
       flex-direction: column;

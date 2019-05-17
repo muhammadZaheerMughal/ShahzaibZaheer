@@ -57,32 +57,77 @@ $('document').ready(function(){
 
 
 
-//************ Getting Projets
+
+
+
+
+
+
+
+
+
+
+/************ Load more Projets
+****************************************************/
+var project_item_one =  '<div class="project-item ltr">';
+    project_item_one += '<div class="project-image">';
+    project_item_one += '<img src="https://picsum.photos/520/320" alt="">';
+    project_item_one += '</div>';
+    project_item_one += '<h3 class="project-title">Project title</h3>';
+    project_item_one += '<div class="project-description">';
+    project_item_one += 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+    project_item_one += '</div>';
+    project_item_one += '<ul class="project-technologies"><li>React</li><li>Laravel</li><li>Php</li><li>Css</li><li>Sass</li>  </ul>';
+    project_item_one += '<div class="project-links">'
+    project_item_one += '<a href="#"><svg><use href="#github-icon" /></svg></a>';
+    project_item_one += '<a href="#"><svg><use href="#external-link-icon" /></svg></a></div></div>';
+
+var project_item_two =  '<div class="project-item rtl">';
+    project_item_two += '<div class="project-image">';
+    project_item_two += '<img src="https://picsum.photos/520/320" alt="">';
+    project_item_two += '</div>';
+    project_item_two += '<h3 class="project-title">Project title</h3>';
+    project_item_two += '<div class="project-description">';
+    project_item_two += 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+    project_item_two += '</div>';
+    project_item_two += '<ul class="project-technologies"><li>React</li><li>Laravel</li><li>Php</li><li>Css</li><li>Sass</li>  </ul>';
+    project_item_two += '<div class="project-links">'
+    project_item_two += '<a href="#"><svg><use href="#github-icon" /></svg></a>';
+    project_item_two += '<a href="#"><svg><use href="#external-link-icon" /></svg></a></div></div>';
+
+
+
+
+
+
+
+
+
+
+
+
+
 const LOAD_PROJECTS_BTN =  $('#loadMoreProjects');
 const LOADING_iCON = $('#loading_icon').hide();
+const PROJECTS_CONTAINER = $('.project-items-container');
 
 LOAD_PROJECTS_BTN.click(function(){
   // alert('load projects and append in project container');
-  showLoading();
-
-      // $.ajax({
-      //       type: 'GET',
-      //       url: 'data.json',
-      //       async: true,
-      //       datatype: 'JSON',
-      //       success: function(data)
-      //       {
-      //         if (data)
-      //         {
-      //           console.log(data);
-      //         }
-      //       }
-      // });
-    setTimeout(function(){hideLoading();},2000);
-
-
+  loadProjects();
 });
 
+
+  function loadProjects(){
+    showLoading();
+    // get the projects and append the projects
+    setTimeout(function(){
+      hideLoading();
+      PROJECTS_CONTAINER.append(project_item_one);
+      PROJECTS_CONTAINER.append(project_item_two);
+      disableLoadProjectButton();
+    },1000);
+
+  }
 
   function showLoading(){
     LOAD_PROJECTS_BTN.hide();
@@ -94,6 +139,12 @@ LOAD_PROJECTS_BTN.click(function(){
     LOAD_PROJECTS_BTN.show();
   }
 
+  function disableLoadProjectButton(){
+    // LOAD_PROJECTS_BTN.attr('disabled','true');
+    // LOAD_PROJECTS_BTN.text('There are no more projects');
+    //or
+    LOAD_PROJECTS_BTN.hide();
+  }
 
 
 });
