@@ -110,6 +110,9 @@ var project_item_two =  '<div class="project-item rtl">';
 const LOAD_PROJECTS_BTN =  $('#loadMoreProjects');
 const LOADING_iCON = $('#loading_icon').hide();
 const PROJECTS_CONTAINER = $('.project-items-container');
+var currentProjectsCount = 2;
+var totalProjectsCount = null;
+var projectsData = null;    // we load data only once, this is to store cache.
 
 LOAD_PROJECTS_BTN.click(function(){
   // alert('load projects and append in project container');
@@ -120,15 +123,33 @@ LOAD_PROJECTS_BTN.click(function(){
   function loadProjects(){
     showLoading();
     // get the projects and append the projects
-    setTimeout(function(){
-      hideLoading();
-      PROJECTS_CONTAINER.append(project_item_one);
-      PROJECTS_CONTAINER.append(project_item_two);
-      disableLoadProjectButton();
-    },1000);
+
+    // grab the projects, if success then append and hide loading
+    // if fails or no more projects are there then disable loadProjects button
+    //*******  /resources/scripts/data.json
+
+    if(projectsData == null){
+      // console.log('Download and extract data');
+      downloadData();
+    }else{
+      extractAndAppendProjects();
+      // console.log('Only extract data');
+    }
+
+
+    // setTimeout(function(){
+    //   //
+    //   hideLoading();
+    //   PROJECTS_CONTAINER.append(project_item_one);
+    //   PROJECTS_CONTAINER.append(project_item_two);
+    //   disableLoadProjectButton();
+    // },1000);
 
   }
-
+  function isEven($number){
+    if($number==0) return true;
+    return $number/2 ? true : false;
+  }
   function showLoading(){
     LOAD_PROJECTS_BTN.hide();
     LOADING_iCON.show();
@@ -138,13 +159,54 @@ LOAD_PROJECTS_BTN.click(function(){
     LOADING_iCON.hide();
     LOAD_PROJECTS_BTN.show();
   }
-
   function disableLoadProjectButton(){
     // LOAD_PROJECTS_BTN.attr('disabled','true');
     // LOAD_PROJECTS_BTN.text('There are no more projects');
     //or
     LOAD_PROJECTS_BTN.hide();
   }
+  function downloadData(){
+    var url = '/resources/scripts/data.json';
+    var onSuccess = function (data){
+        projectsData = data;
+        totalProjectsCount = projectsData.projects.length;
+        extractAndAppendProjects();
+        // console.log(data.projects[0].projectTitle);
+        console.log(totalProjectsCount);
+        // console.log("successfull");
+        console.log(data);
+    }
+    var onFailure = function (jqXHR, textStatus, error) {
+      console.log("Error occur");
+      console.log(jqXHR);
+      console.log(textStatus);
+      console.log(error);
+    }
 
+    $.ajax({
+      type: "GET",
+      url: url,
+      async: true,
+      success: onSuccess,
+      error: onFailure
+    });
+  }
+  function appendProjectItem(projectItem){
+    console.log('apend project');
+    console.log(projectItem);
+  }
+  function extractAndAppendProjects(){
 
+    var loadCount = currentProjectsCount + 2 ;   // we only want to load 2 projects at one request
+    var projectItem = '';
+    for(currentProjectsCount; currentProjectsCount < loadCount; currentProjectsCount++)
+    {
+      console.log(projectsData.projects[currentProjectsCount]);
+      projectItem = projectsData.projects[currentProjectsCount];
+      appendProjectItem(projectItem);
+    }
+
+    // appen project
+    hideLoading();
+  }
 });
