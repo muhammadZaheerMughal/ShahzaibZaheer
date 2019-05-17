@@ -89,8 +89,27 @@ p{
 nav{
   display: flex;
   justify-content: flex-end;
-  margin-right: getGutter(3);
+  padding: getGutter(3);
+  padding-bottom: getGutter(2);
+  background: $background-color;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+  transition: transform 0.5s linear;
+
   display: none;
+  &.stricky{
+    box-shadow: 1px 1px 2px black;
+  }
+  &.hidden{
+    transform: translateY(-100%);
+  }
+  &.visible{
+    transform: translateY(0);
+  }
   ul{
     display: flex;
     list-style: none;
@@ -259,6 +278,13 @@ header{
     }
 }
 
+.work{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
 
 @media (max-width: 900px){ // we have two different styles for work
   .work{
@@ -538,10 +564,10 @@ header{
 @media (min-width : 800px ){
   nav{
     display: flex;
-    margin-top: getGutter(2);
+    // margin-top: getGutter(2);
   }
   header{
-    margin-top: getGutter(-4);
+    // margin-top: getGutter(-4);
   }
 
   .contact{
@@ -773,5 +799,58 @@ header{
         margin-left: getGutter(4);
       }
     }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//*************** Animations
+.spinner {
+  animation: rotate 2s linear infinite;
+  // margin: -25px 0 0 -25px;
+  margin: getGutter(3) 0;
+  width: 25px;
+  height: 25px;
+
+  & .path {
+    stroke: $accent-color;
+    stroke-linecap: round;
+    animation: dash 0.5s ease-in-out infinite;
+  }
+
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
   }
 }

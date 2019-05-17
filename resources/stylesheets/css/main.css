@@ -88,8 +88,22 @@ p {
 nav {
   display: flex;
   justify-content: flex-end;
-  margin-right: 24px;
+  padding: 24px;
+  padding-bottom: 16px;
+  background: #0a192f;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+  transition: transform 0.5s linear;
   display: none; }
+  nav.stricky {
+    box-shadow: 1px 1px 2px black; }
+  nav.hidden {
+    transform: translateY(-100%); }
+  nav.visible {
+    transform: translateY(0); }
   nav ul {
     display: flex;
     list-style: none;
@@ -204,6 +218,12 @@ header {
       left: 8px; }
     .about .image:hover::after {
       opacity: 0; }
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 @media (max-width: 900px) {
   .work {
@@ -395,11 +415,7 @@ header {
       padding-left: 32px; } }
 @media (min-width: 800px) {
   nav {
-    display: flex;
-    margin-top: 16px; }
-
-  header {
-    margin-top: -32px; }
+    display: flex; }
 
   .contact .contact-content .contact-info {
     width: 450px; } }
@@ -567,5 +583,28 @@ header {
     .contact .contact-content .contact-info {
       width: 500px;
       margin-left: 32px; } }
+.spinner {
+  animation: rotate 2s linear infinite;
+  margin: 24px 0;
+  width: 25px;
+  height: 25px; }
+  .spinner .path {
+    stroke: #08f3d0;
+    stroke-linecap: round;
+    animation: dash 0.5s ease-in-out infinite; }
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg); } }
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0; }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35; }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124; } }
 
 /*# sourceMappingURL=main.css.map */
