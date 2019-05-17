@@ -1,74 +1,103 @@
 {
   "projects":[
       {
-        "projectTitle" : "This is project title",
-        "projectDescription" : "This is project description",
-        "projectTechnologies" :
+        "image": "https://picsum.photos/520/320",
+        "title" : "This is project title",
+        "description" : "This is project description",
+        "technologies" :
             [
                 "Tect1","Tect2","Tect3","Tect4"
             ],
-        "githubLink" : "www.github.com",
-        "liveLink" : "www.google.com"
+        "githubLink" : "https://www.github.com",
+        "liveLink" : "https://www.google.com"
       },
       {
-        "projectTitle" : "This is project title",
-        "projectDescription" : "This is project description",
-        "projectTechnologies" :
+        "image": "https://picsum.photos/520/320",
+        "title" : "This is project title",
+        "description" : "This is project description",
+        "technologies" :
             [
                 "Tect1","Tect2","Tect3","Tect4"
             ],
-        "githubLink" : "www.github.com",
-        "liveLink" : "www.google.com"
+        "githubLink" : "https://www.github.com",
+        "liveLink" : "https://www.google.com"
       },
       {
-        "projectTitle" : "This is project title",
-        "projectDescription" : "This is project description",
-        "projectTechnologies" :
+        "image": "https://picsum.photos/520/320",
+        "title" : "This is project title",
+        "description" : "This is project description",
+        "technologies" :
             [
                 "Tect1","Tect2","Tect3","Tect4"
             ],
-        "githubLink" : "www.github.com",
-        "liveLink" : "www.google.com"
+        "githubLink" : "https://www.github.com",
+        "liveLink" : "https://www.google.com"
       },
       {
-        "projectTitle" : "This is project title",
-        "projectDescription" : "This is project description",
-        "projectTechnologies" :
+        "image": "https://picsum.photos/520/320",
+        "title" : "This is project title",
+        "description" : "This is project description",
+        "technologies" :
             [
                 "Tect1","Tect2","Tect3","Tect4"
             ],
-        "githubLink" : "www.github.com",
-        "liveLink" : "www.google.com"
+        "githubLink" : "https://www.github.com",
+        "liveLink" : "https://www.google.com"
       },
       {
-        "projectTitle" : "This is project title",
-        "projectDescription" : "This is project description",
-        "projectTechnologies" :
+        "image": "https://picsum.photos/520/320",
+        "title" : "This is project title",
+        "description" : "This is project description",
+        "technologies" :
+            [
+                "Tect1","Tect2","Tect3","Tect4","tech5"
+            ],
+        "githubLink" : "https://www.github.com",
+        "liveLink" : "https://www.google.com"
+      },
+      {
+        "image": "https://picsum.photos/520/320",
+        "title" : "This is project title",
+        "description" : "This is project description",
+        "technologies" :
             [
                 "Tect1","Tect2","Tect3","Tect4"
             ],
-        "githubLink" : "www.github.com",
-        "liveLink" : "www.google.com"
+        "githubLink" : "https://www.github.com",
+        "liveLink" : "https://www.google.com"
       },
       {
-        "projectTitle" : "This is project title",
-        "projectDescription" : "This is project description",
-        "projectTechnologies" :
+        "image": "https://picsum.photos/520/320",
+        "title" : "This is project title",
+        "description" : "This is project description",
+        "technologies" :
             [
                 "Tect1","Tect2","Tect3","Tect4"
             ],
-        "githubLink" : "www.github.com",
-        "liveLink" : "www.google.com"
+        "githubLink" : "https://www.github.com",
+        "liveLink" : "https://www.google.com"
       },
       {
-        "projectTitle" : "This is project title",
-        "projectDescription" : "This is project description",
-        "projectTechnologies" :
-                [
-                    "Tect1","Tect2","Tect3","Tect4"
-                ],
-        "githubLink" : "www.github.com",
-        "liveLink" : "www.google.com"
+        "image": "https://picsum.photos/520/320",
+        "title" : "This is project title",
+        "description" : "This is project description",
+        "technologies" :
+            [
+                "Tect1","Tect2","Tect3","Tect4","tech5"
+            ],
+        "githubLink" : "https://www.github.com",
+        "liveLink" : "https://www.google.com"
+      },
+      {
+        "image": "https://picsum.photos/520/320",
+        "title" : "This is project title",
+        "description" : "This is project description",
+        "technologies" :
+            [
+                "Tect1","Tect2","Tect3","Tect4"
+            ],
+        "githubLink" : "https://www.github.com",
+        "liveLink" : "https://www.google.com"
       }
   ]
 }
