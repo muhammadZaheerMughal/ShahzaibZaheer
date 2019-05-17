@@ -286,7 +286,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  // align-items: center;
   margin-bottom: getGutter(40);
   // background: red;
 
@@ -628,6 +628,9 @@ header{
   .work{
     .sub-heading{
       align-self: flex-start;
+      &::after{
+        width: 160%;
+      }
     }
     padding-bottom: getGutter(2);
     .project-items-container{
@@ -834,7 +837,7 @@ header{
   margin: getGutter(3) 0;
   width: 25px;
   height: 25px;
-
+  align-self: center;
   & .path {
     stroke: $accent-color;
     stroke-linecap: round;

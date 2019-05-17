@@ -226,7 +226,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin-bottom: 320px; }
 
 @media (max-width: 900px) {
@@ -453,6 +452,8 @@ header {
     padding-bottom: 16px; }
     .work .sub-heading {
       align-self: flex-start; }
+      .work .sub-heading::after {
+        width: 160%; }
     .work .project-items-container {
       display: flex;
       flex-direction: column;
@@ -593,7 +594,8 @@ header {
   animation: rotate 2s linear infinite;
   margin: 24px 0;
   width: 25px;
-  height: 25px; }
+  height: 25px;
+  align-self: center; }
   .spinner .path {
     stroke: #08f3d0;
     stroke-linecap: round;
