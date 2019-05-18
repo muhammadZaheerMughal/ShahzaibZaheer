@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vendor/scripts/waypoints.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="162" column="7" lean-forward="true" selection-start-line="162" selection-start-column="7" selection-end-line="162" selection-end-column="7" />
+            <state relative-caret-position="3896">
+              <caret line="159" column="63" lean-forward="true" selection-start-line="159" selection-start-column="63" selection-end-line="159" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="241" column="18" lean-forward="true" selection-start-line="241" selection-start-column="18" selection-end-line="241" selection-end-column="18" />
+            <state relative-caret-position="505">
+              <caret line="254" column="44" selection-start-line="254" selection-start-column="44" selection-end-line="254" selection-end-column="44" />
               <folding>
                 <element signature="e#793#1474#0" />
                 <element signature="e#1894#1902#0" />
@@ -110,6 +108,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -137,12 +136,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558177802414</updated>
-      <workItem from="1558177805681" duration="3230000" />
+      <workItem from="1558177805681" duration="3458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3230000" />
+    <option name="totallyTimeSpent" value="3458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -153,8 +152,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" weight="0.7790368" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -171,6 +170,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vendor/scripts/waypoints.js">
@@ -195,15 +220,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="162" column="7" lean-forward="true" selection-start-line="162" selection-start-column="7" selection-end-line="162" selection-end-column="7" />
+        <state relative-caret-position="3896">
+          <caret line="159" column="63" lean-forward="true" selection-start-line="159" selection-start-column="63" selection-end-line="159" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="241" column="18" lean-forward="true" selection-start-line="241" selection-start-column="18" selection-end-line="241" selection-end-column="18" />
+        <state relative-caret-position="505">
+          <caret line="254" column="44" selection-start-line="254" selection-start-column="44" selection-end-line="254" selection-end-column="44" />
           <folding>
             <element signature="e#793#1474#0" />
             <element signature="e#1894#1902#0" />

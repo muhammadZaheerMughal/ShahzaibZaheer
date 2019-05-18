@@ -247,6 +247,15 @@ LOAD_PROJECTS_BTN.click(function(){
         }
     });
 
+    // for home section, to remove highlight about nav link when currently user is on home section
+    new Waypoint({
+        element: $('#home'),
+        handler: function(direction) {
+            hightlightNavItemById('#home');
+            // console.log('scrolled to home');
+        }
+    });
+
 
 
 
