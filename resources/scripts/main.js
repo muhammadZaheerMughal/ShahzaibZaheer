@@ -45,6 +45,10 @@ $('document').ready(function(){
         // Does a scroll target exist?
         if (target.length) {
           // Only prevent default if animation is actually gonna happen
+
+            //***** highlighting clicked nav link
+            hightlightNavItem(this);
+
           event.preventDefault();
           $('html, body').animate({
             scrollTop: target.offset().top - 50
@@ -55,8 +59,21 @@ $('document').ready(function(){
 
 
 
+function hightlightNavItem(navItem){
+    //***** highlighting nav link, when click on nav item (<a> inside nav)
+    // remove active class from all the nav links
+    $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').removeClass('active');
+    // add active class to clicked link
+    $(navItem).addClass('active');
 
+}
 
+function hightlightNavItemById(navItemID){
+    // remove active class from all the nav links
+    $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').removeClass('active');
+    // add active class to clicked link
+    $('a[href="'+navItemID+'"]').addClass('active');
+}
 
 
 
@@ -166,7 +183,6 @@ LOAD_PROJECTS_BTN.click(function(){
             PROJECTS_CONTAINER.append(project_item_html);
           }
   }
-
   function extractAndAppendProjects(){
         // console.log("CurrentCount: "+currentProjectsCount);
         // console.log("TotalCount: "+totalProjectsCount);
@@ -203,7 +219,33 @@ LOAD_PROJECTS_BTN.click(function(){
 
   /************** Make nav active on scroll
   *************************************/
+  //  calculate the offset of the element and then compare that with the scroll value
+  // for about section
+  new Waypoint({
+          element: $('#about'),
+          handler: function(direction) {
+              hightlightNavItemById('#about');
+              // console.log('scrolled to about');
+          }
+  });
 
+    // for work section
+    new Waypoint({
+        element: $('#work'),
+        handler: function(direction) {
+            hightlightNavItemById('#work');
+            // console.log('scrolled to work');
+        }
+    });
+
+    // for contact us section
+    new Waypoint({
+        element: $('#contact'),
+        handler: function(direction) {
+            hightlightNavItemById('#contact');
+            // console.log('scrolled to contact');
+        }
+    });
 
 
 
