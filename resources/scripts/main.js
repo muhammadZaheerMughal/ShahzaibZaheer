@@ -20,7 +20,7 @@ $('document').ready(function(){
           // scroll up
           // MAIN_NAV.slideDown();
           MAIN_NAV.removeClass('hidden').addClass('visible sticky');
-          NAV_TOGGLER.removeClass('hidden').addClass('visible sticky');
+
       }
       position = scroll;
   });
@@ -79,6 +79,13 @@ function hightlightNavItemById(navItemID){
     $(' a[href*="#"]').not('[href="#"]').not('[href="#0"]').removeClass('active');
     // add active class to clicked link
     $(' a[href="'+navItemID+'"]').addClass('active');
+
+    if(navItemID == "#home"){
+      NAV_TOGGLER.removeClass('hidden').addClass('visible sticky');
+    }else{
+      NAV_TOGGLER.removeClass('visible').addClass('hidden');
+    }
+
 }
 
 
