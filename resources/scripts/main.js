@@ -5,6 +5,7 @@ $('document').ready(function(){
 
   //******** Detect Scroll position and hide show nav
   const MAIN_NAV =  $('#main_sticky_nav');
+  // const MAIN_NAV =  $('.js--main_nav');
   var position = $(window).scrollTop();
   // should start at 0
   $(window).scroll(function() {
@@ -13,10 +14,13 @@ $('document').ready(function(){
           // scroll down
           // MAIN_NAV.slideUp();
           MAIN_NAV.removeClass('visible').addClass('hidden');
+          NAV_TOGGLER.removeClass('visible').addClass('hidden');
+
       } else {
           // scroll up
           // MAIN_NAV.slideDown();
           MAIN_NAV.removeClass('hidden').addClass('visible sticky');
+          NAV_TOGGLER.removeClass('hidden').addClass('visible sticky');
       }
       position = scroll;
   });
@@ -52,7 +56,7 @@ $('document').ready(function(){
 
           event.preventDefault();
           $('html, body').animate({
-            scrollTop: target.offset().top - 50
+            scrollTop: target.offset().top - 10
           }, 1000);
         }
       }
@@ -71,9 +75,10 @@ function hightlightNavItem(navItem){
 
 function hightlightNavItemById(navItemID){
     // remove active class from all the nav links
-    $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').removeClass('active');
+    closeNavIfOpen();
+    $(' a[href*="#"]').not('[href="#"]').not('[href="#0"]').removeClass('active');
     // add active class to clicked link
-    $('a[href="'+navItemID+'"]').addClass('active');
+    $(' a[href="'+navItemID+'"]').addClass('active');
 }
 
 
@@ -218,7 +223,7 @@ LOAD_PROJECTS_BTN.click(function(){
 
 
 
-  /************** Make nav active on scroll
+  /************** Make nav item active on scroll
   *************************************/
   //  calculate the offset of the element and then compare that with the scroll value
   // for about section
@@ -262,4 +267,58 @@ LOAD_PROJECTS_BTN.click(function(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+/************ Toggle Nav
+****************************************************/
+const NAV_TOGGLER = $('#main_nav_toggler');
+const DRAWER_OPEN_ICON = $('#drawer_open_icon');
+const DRAWER_CLOSE_ICON = $('#drawer_close_icon').hide();
+const NAV = $('#main_sticky_nav');
+
+  NAV_TOGGLER.click(toggleNav);
+
+
+
+  function toggleNav(){
+    // alert("hello");
+      NAV.toggleClass('collapse');
+      toggleDrawerIcon();
+
+
+  }
+
+  function isNavOpen(){
+    if(DRAWER_CLOSE_ICON.is(":visible")){
+      // yes nav is open
+      return true;
+    }
+    return false;
+  }
+
+  function toggleDrawerIcon(){
+    if(DRAWER_OPEN_ICON.is(":visible")){
+      // alert("drawer open is visible.");
+      DRAWER_CLOSE_ICON.show();
+      DRAWER_OPEN_ICON.hide();
+    }else{
+      // alert("drawer close is visible.");
+      DRAWER_CLOSE_ICON.hide();
+      DRAWER_OPEN_ICON.show();
+    }
+  }
+
+  function closeNavIfOpen(){
+    NAV.removeClass('collapse');
+    DRAWER_CLOSE_ICON.hide();
+    DRAWER_OPEN_ICON.show();
+  }
 });
