@@ -64,6 +64,7 @@ table {
     border: none; }
 
 .button {
+  align-self: flex-end;
   margin-bottom: 16px; }
 
 tr:hover {
@@ -73,6 +74,8 @@ form {
   display: flex;
   flex-direction: column;
   width: 80%; }
+  form > .button {
+    align-self: stretch; }
 
 input[type='text'] {
   width: 100%;
