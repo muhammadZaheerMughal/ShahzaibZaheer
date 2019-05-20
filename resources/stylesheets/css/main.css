@@ -31,6 +31,13 @@
   align-items: center;
   justify-content: center; }
 
+a {
+  font-size: 1.2em;
+  font-family: "SFMono"; }
+  a:hover:not(.button) {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #08f3d0; }
+
 h1 {
   font-size: 3em;
   text-align: center;
@@ -55,41 +62,94 @@ table {
     padding: 8px;
     margin: 0;
     border: none; }
-  table tbody a {
-    font-size: 1.2em;
-    font-family: "SFMono"; }
 
 .button {
-  align-self: flex-end;
   margin-bottom: 16px; }
 
 tr:hover {
   background-color: #ddd; }
 
-input, textarea {
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%; }
+
+input[type='text'] {
   width: 100%;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  background: none;
+  border: 1px solid rgba(8, 243, 208, 0.5);
+  border-radius: 4px;
   margin: 5px;
-  padding: 10px; }
-
-input[type="submit"] {
-  box-sizing: content-box;
-  background-color: #4CAF50;
-  color: white;
-  border: 0px; }
-
-input[type="submit"]:hover {
-  cursor: pointer;
-  background-color: #3a7d3d; }
-
-input[type="submit"], button {
-  box-sizing: content-box;
-  background-color: #4CAF50;
-  color: white;
-  border: 0px;
-  font-size: 1em;
   padding: 10px;
-  width: 20%; }
+  font-family: "SFMono";
+  font-weight: normal;
+  color: #e6f1ff; }
+  input[type='text']::placeholder {
+    color: rgba(230, 241, 255, 0.2); }
+
+.project_tech_input_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 5px;
+  margin: 16px 0; }
+  .project_tech_input_container input, .project_tech_input_container .button {
+    font-size: 0.8em; }
+  .project_tech_input_container .tech {
+    width: 40%; }
+
+.inputFileContainer {
+  text-align: center; }
+  .inputFileContainer .no-js .inputfile + label {
+    display: none; }
+  .inputFileContainer .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1; }
+  .inputFileContainer label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */ }
+    .inputFileContainer label span {
+      color: rgba(230, 241, 255, 0.6); }
+    .inputFileContainer label svg {
+      width: 1em;
+      height: 1em;
+      vertical-align: middle;
+      fill: currentColor;
+      margin-top: -0.25em;
+      margin-right: 0.25em;
+      width: 100%;
+      height: 100%;
+      fill: #0a192f; }
+    .inputFileContainer label figure {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #08f3d0;
+      display: block;
+      padding: 20px;
+      margin: 0 auto 10px; }
+  .inputFileContainer .inputfile:focus + label figure,
+  .inputFileContainer .inputfile.has-focus + label figure,
+  .inputFileContainer .inputfile + label:hover figure {
+    background-color: #06c2a6; }
+  .inputFileContainer .inputfile:focus + label,
+  .inputFileContainer .inputfile.has-focus + label,
+  .inputFileContainer .inputfile + label:hover {
+    color: #06c2a6; }
 
 * {
   font-family: 'Calibre';
