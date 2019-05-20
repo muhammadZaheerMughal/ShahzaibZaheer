@@ -34,7 +34,7 @@
       padding: getGutter(1);
       // margin-top: getGutter(4);
 
-    
+
 
     }
 
@@ -319,6 +319,8 @@
 
     }
 
+
+
     @media (max-width: 900px){ // we have two different styles for work
       .work{
         margin-bottom: getGutter(15);
@@ -432,7 +434,7 @@
             display: flex;
             align-items: center;
             // justify-content: center;
-            margin: getGutter(1) 0;
+            margin: getGutter(3) 0;
             img{
               width: 24px;
               height: 24px;
@@ -511,6 +513,12 @@
           .image{
             width: 200px;
             height: 200px;
+          }
+          .skills-list{
+            .list-item-container{
+              display: flex;
+              flex-direction: row;
+            }
           }
       }
       .work{
@@ -607,6 +615,7 @@
         .contact-content{
           .contact-info{
             width: 450px;
+
           }
         }
       }
@@ -835,6 +844,7 @@
           justify-content: flex-start;
           .contact-info{
             width: 500px;
+
             margin-left: getGutter(4);
           }
         }
@@ -846,250 +856,6 @@
 
 
 
-
-    //****************** Main navigation
-    // @media(max-width: 799px){
-    //   // #navToggler{
-    //   //   width: 29px;
-    //   //   height: 48px;
-    //   //   position: absolute;
-    //   //   top: 0;
-    //   //   right: 0;
-    //   //   margin-right: getGutter(2);
-    //   //   margin-top: getGutter(2);
-    //   //   input{
-    //   //     width: 24px;
-    //   //     height: 24px;
-    //   //     padding: getGutter(4);
-    //   //     background: red;
-    //   //     position: absolute;
-    //   //     z-index: 20;
-    //   //     top: 0;
-    //   //     right:0;
-    //   //     margin-top: getGutter(-1);
-    //   //     cursor: pointer;
-    //   //   }
-    //   //   span{
-    //   //     display: flex;
-    //   //     width: 100%;
-    //   //     height: 2px;
-    //   //     margin-bottom: 5px;
-    //   //     position: relative;
-    //   //     background: $accent-color;
-    //   //     border-radius: 3px;
-    //   //     z-index: 21;
-    //   //     transform-origin: 5px 0px;
-    //   //     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-    //   //                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-    //   //                 opacity 0.55s ease;
-    //   //
-    //   //     &:first-child
-    //   //     {
-    //   //       transform-origin: 0% 0%;
-    //   //     }
-    //   //
-    //   //     &:nth-last-child(2)
-    //   //     {
-    //   //       transform-origin: 0% 100%;
-    //   //     }
-    //   //
-    //   //   }
-    //   //
-    //   // }
-    //   #main_sticky_nav{
-    //       display: none;
-    //       // display: flex;
-    //       // flex-direction: column;
-    //       // justify-content: center;
-    //       // align-items: center;
-    //       // background: lighten($background-color,10%);
-    //       // height: 100%;
-    //       // min-width: 300px;
-    //       // position: fixed;
-    //       // top: 0;
-    //       // right: 0;
-    //       //     ul{
-    //       //       display: flex;
-    //       //       margin: 0 auto;
-    //       //       // background: red;
-    //       //
-    //       //       flex-direction: column;
-    //       //       list-style: none;
-    //       //       align-items: center;
-    //       //       li{
-    //       //         margin: getGutter(3) 0;
-    //       //         a,span{
-    //       //           font-family: $sfmono-font;
-    //       //           // font-size: 1em;
-    //       //         }
-    //       //         span{
-    //       //           color: $accent-color;
-    //       //           margin-right: getGutter(1);
-    //       //           font-size: 0.5em;
-    //       //           display: none;
-    //       //         }
-    //       //         a{
-    //       //           color: $white;
-    //       //           font-size: 1.5em;
-    //       //           &.active, &:hover{
-    //       //             color: $accent-color;
-    //       //           }
-    //       //         }
-    //       //
-    //       //         &:last-child{ // for equally dividing space
-    //       //           padding-right: 24px;
-    //       //         }
-    //       //       }
-    //       //       .button{
-    //       //         margin-top: getGutter(3);
-    //       //         // align-self: center;
-    //       //       }
-    //       //
-    //       //     }
-    //   }
-    //
-    //
-    //
-    //   #small_screen_nav{
-    //     background: lighten($background-color,10%);
-    //     // position: absolute;
-    //     &.hidden{
-    //       #menuToggle{
-    //         // visibility: hidden;
-    //         opacity: 0;
-    //         // transform: translateY(-250%);
-    //
-    //       }
-    //     }
-    //     &.visible{
-    //       #menuToggle{
-    //         // visibility: visible;
-    //         opacity: 1;
-    //         // transform: translateY(0);
-    //       }
-    //
-    //     }
-    //
-    //     #menuToggle {
-    //       transition: opacity 0.3s linear;
-    //       display: flex;
-    //       flex-direction: column;
-    //       top: 0;
-    //       right: 0;
-    //       position: fixed;
-    //       margin: getGutter(4);
-    //
-    //       z-index: 999;
-    //       user-select: none;
-    //
-    //         input
-    //         {
-    //           display: flex;
-    //           width: 40px;
-    //           height: 32px;
-    //           position: absolute;
-    //           cursor: pointer;
-    //           opacity: 0;
-    //           z-index: 2;
-    //         }
-    //         span{
-    //           display: flex;
-    //           width: 29px;
-    //           height: 2px;
-    //           margin-bottom: 5px;
-    //           position: relative;
-    //           background: $white;
-    //           border-radius: 3px;
-    //           z-index: 1;
-    //           transform-origin: 5px 0px;
-    //           transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-    //                       background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-    //                       opacity 0.55s ease;
-    //
-    //           &:first-child
-    //           {
-    //             transform-origin: 0% 0%;
-    //           }
-    //
-    //           &:nth-last-child(2)
-    //           {
-    //             transform-origin: 0% 100%;
-    //           }
-    //
-    //         }
-    //         input:checked{
-    //           ~ span{
-    //             opacity: 1;
-    //             transform: rotate(45deg) translate(-3px, -1px);
-    //             background: $accent-color;
-    //           }
-    //           ~ span:nth-last-child(3)
-    //           {
-    //             opacity: 0;
-    //             transform: rotate(0deg) scale(0.2, 0.2);
-    //           }
-    //           ~ span:nth-last-child(2)
-    //           {
-    //             transform: rotate(-45deg) translate(0, -1px);
-    //           }
-    //           ~ ul
-    //           {
-    //             transform: translateX(0);
-    //           }
-    //
-    //         }
-    //     }
-    //
-    //     ul{
-    //       position: fixed;
-    //       background: lighten($background-color,10%);
-    //           display: flex;
-    //           align-items: center;
-    //           justify-content: center;
-    //           top: 0;
-    //           right: 0;
-    //           width: 300px;
-    //           height: 100vh;
-    //           // background: red;
-    //           transform: translateX(300px);
-    //           flex-direction: column;
-    //           list-style: none;
-    //           align-items: center;
-    //           transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-    //           li{
-    //             margin: getGutter(3) 0;
-    //             padding: 10px 0;
-    //             transition-delay: 2s;
-    //             a{
-    //               color: $white;
-    //               font-family: $sfmono-font;
-    //               // font-size: 1em;
-    //             }
-    //             span{
-    //               color: $accent-color;
-    //               margin-right: getGutter(1);
-    //               font-size: 0.5em;
-    //               display: none;
-    //             }
-    //             a{
-    //               font-size: 1.5em;
-    //               &.active, &:hover{
-    //                 color: $accent-color;
-    //               }
-    //             }
-    //
-    //             &:last-child{ // for equally dividing space
-    //               padding-right: 24px;
-    //             }
-    //           }
-    //           .button{
-    //             margin-top: getGutter(3);
-    //             // align-self: center;
-    //           }
-    //
-    //         }
-    //   }
-    // }
 
 
     @media(max-width: 799px){

@@ -271,7 +271,7 @@ header {
     .contact .contact-info li {
       display: flex;
       align-items: center;
-      margin: 8px 0; }
+      margin: 24px 0; }
       .contact .contact-info li img {
         width: 24px;
         height: 24px;
@@ -324,6 +324,9 @@ header {
   .about .image {
     width: 200px;
     height: 200px; }
+  .about .skills-list .list-item-container {
+    display: flex;
+    flex-direction: row; }
 
   .work .project-items-container {
     display: flex;
