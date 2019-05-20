@@ -365,3 +365,17 @@ const NAV = $('#main_sticky_nav');
 		input.addEventListener( 'blur', function(){ input.classList.remove( 'has-focus' ); });
 	});
 }( document, window, 0 ));
+
+
+
+
+/******************* Admin , add tech input file on button click
+***************************************************/
+const TECH_INPUT_CONTAINER = $('#project_tech_input_container');
+const ADD_TECH_BTN = $('#addTech');
+
+ADD_TECH_BTN.click(function(e){
+  e.preventDefault();
+  var input_field = '<input class="tech" class="projectTech[]" type="text" placeholder="Tech name">'
+  TECH_INPUT_CONTAINER.append(input_field);
+});
