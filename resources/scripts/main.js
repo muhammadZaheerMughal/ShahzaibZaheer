@@ -1,8 +1,5 @@
 $('document').ready(function(){
 
-
-
-
   //******** Detect Scroll position and hide show nav
   const MAIN_NAV =  $('#main_sticky_nav');
   // const MAIN_NAV =  $('.js--main_nav');
@@ -24,6 +21,7 @@ $('document').ready(function(){
       }
       position = scroll;
   });
+
 
 
 
@@ -56,7 +54,7 @@ $('document').ready(function(){
 
           event.preventDefault();
           $('html, body').animate({
-            scrollTop: target.offset().top - 10
+            scrollTop: target.offset().top - 50
           }, 1000);
         }
       }
@@ -177,7 +175,7 @@ LOAD_PROJECTS_BTN.click(function(){
   }
   function appendProjectItem(projectItem, className){
     if(projectItem){
-        var project_item_html =  '<div class="project-item '+ className +'">';
+        var project_item_html =  '<div class="project-item fadeInUpAnimation '+ className +'">';
             project_item_html += '<div class="project-image">';
             project_item_html += '<img src="'+projectItem.image+'" alt="">';
             project_item_html += '</div>';
@@ -233,44 +231,94 @@ LOAD_PROJECTS_BTN.click(function(){
   /************** Make nav item active on scroll
   *************************************/
   //  calculate the offset of the element and then compare that with the scroll value
-  // for about section
-  new Waypoint({
-          element: $('#about'),
+  // // for about section
+  // new Waypoint({
+  //         element: $('#about'),
+  //         handler: function(direction) {
+  //             hightlightNavItemById('#about');
+  //             performAnimation(this.element);
+  //             // console.log('scrolled to about');
+  //         },
+  //         offset: 500
+  // });
+  //
+  //   // for work section
+  //   new Waypoint({
+  //       element: $('#work'),
+  //       handler: function(direction) {
+  //           hightlightNavItemById('#work');
+  //           performAnimation(this.element);
+  //           // console.log('scrolled to work');
+  //       },
+  //       offset: 500
+  //   });
+
+    function init_whenHitTopOfElement(id, offset){
+      // this function will invoke, when top of the  element will hit
+      // this funciton will animate element when in view and also active nav item accordingly
+      new Waypoint({
+          element: $(id),
           handler: function(direction) {
-              hightlightNavItemById('#about');
-              // console.log('scrolled to about');
-          }
-  });
+              hightlightNavItemById(id);
+              performAnimation(this.element);
+              // console.log('scrolled to contact');
+          },
+          offset: offset,
+      });
+    }
+    function init_whenHitBottomOfElement(id){
+      // this funciton will active nav item accordingly when bottom of the element will hit
+      new Waypoint({
+          element: $(id),
+          handler: function(direction) {
+              hightlightNavItemById(id);
+              // console.log('scrolled to contact');
+          },
+          offset: 'bottom-in-view'
+      });
+    }
+
+    // for about section
+    init_whenHitTopOfElement('#about','40%');
+    init_whenHitBottomOfElement('#about');
 
     // for work section
-    new Waypoint({
-        element: $('#work'),
-        handler: function(direction) {
-            hightlightNavItemById('#work');
-            // console.log('scrolled to work');
-        }
-    });
+    init_whenHitTopOfElement('#work','40%');
+    init_whenHitBottomOfElement('#work');
 
-    // for contact us section
-    new Waypoint({
-        element: $('#contact'),
-        handler: function(direction) {
-            hightlightNavItemById('#contact');
-            // console.log('scrolled to contact');
-        }
-    });
-
-    // for home section, to remove highlight about nav link when currently user is on home section
-    new Waypoint({
-        element: $('#home'),
-        handler: function(direction) {
-            hightlightNavItemById('#home');
-            // console.log('scrolled to home');
-        }
-    });
+    // for contact section
+    init_whenHitTopOfElement('#contact','40%');
+    init_whenHitBottomOfElement('#contact');
 
 
 
+    // // for contact us section
+    // new Waypoint({
+    //     element: $('#contact'),
+    //     handler: function(direction) {
+    //         hightlightNavItemById('#contact');
+    //         performAnimation(this.element);
+    //         // console.log('scrolled to contact');
+    //     },
+    //     offset: 200,
+    // });
+    //
+    // // for home section, to remove highlight about nav link when currently user is on home section
+    // new Waypoint({
+    //     element: $('#home'),
+    //     handler: function(direction) {
+    //         hightlightNavItemById('#home');
+    //         // console.log('scrolled to home');
+    //     }
+    // });
+    //
+    //
+    function performAnimation(element){
+      console.log("Perform animation "+element.attr('id'));
+      if(!element.hasClass('fadeInUpAnimation')){ // we only want to perform animation at once
+        element.addClass('fadeInUpAnimation');
+      }
+    }
 
 
 
@@ -379,3 +427,10 @@ ADD_TECH_BTN.click(function(e){
   var input_field = '<input class="tech" class="projectTech[]" type="text" placeholder="Tech name">'
   TECH_INPUT_CONTAINER.append(input_field);
 });
+
+
+
+
+
+/************ Animation
+****************************************************/

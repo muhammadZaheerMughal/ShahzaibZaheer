@@ -19,25 +19,27 @@
     <nav id="main_sticky_nav"  class="">
       <ul>
        <!-- <li><a class="active" href="#home"><span>01.</span>Home</a></li> -->
-        <li><a href="#about"><span>01.</span>About</a></li>
-        <li><a href="#work"><span>02.</span>Work</a></li>
-        <li><a href="#contact"><span>03.</span>Contact</a></li>
+        <li class=""><a href="#about"><span>01.</span>About</a></li>
+        <li class=""><a href="#work"><span>02.</span>Work</a></li>
+        <li class=""><a href="#contact"><span>03.</span>Contact</a></li>
         <a class="button"  >Resume</a>
       </ul>
     </nav>
 
     <div class="container">
     <header id="home">
-      <p class="heading-supporting-text">Hi my name is</p>
-      <h1 class="main-heading">Shahzaib Zaheer.</h1>
-      <h2 class="main-sub-heading">I build things for the web.</h2>
-      <p class="heading-description">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+      <p class="heading-supporting-text fadeInUpAnimation">Hi my name is</p>
+      <h1 class="main-heading  fadeInUpAnimation">Shahzaib Zaheer.</h1>
+      <h2 class="main-sub-heading  fadeInUpAnimation">I build things for the web.</h2>
+      <p class="heading-description  fadeInUpAnimation">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      <a href="#contact" class="button">Contact Me</a>
+      <a href="#contact" class="button  fadeInUpAnimation">Contact Me</a>
     </header>
+
     <section class="about" id="about">
-      <h3 class="sub-heading"><span>01.</span>About me</h3>
-      <div class="about-content">
+      <!-- data-anim will animate elements on scroll  -->
+      <h3 class="sub-heading" ><span>01.</span>About me</h3>
+      <div class="about-content" >
         <div class="picture-container">
           <div class="image">
             <!-- <img src="resources/images/shahzaib.jpg" alt=""> -->
@@ -69,8 +71,8 @@
       </div>
     </section>
     <section class="work" id="work">
-      <h3 class="sub-heading"><span>02.</span>My Work</h3>
-      <div class="project-items-container">
+      <h3 class="sub-heading" ><span>02.</span>My Work</h3>
+      <div class="project-items-container " >
         <!-- <div class="project-item ltr">
           <div class="project-image">
             <img src="https://picsum.photos/520/320" alt="">
@@ -112,7 +114,7 @@
           </div>
         </div> -->
       </div>
-      <button  type="button" class="button" id="loadMoreProjects">Load More</button>
+      <button  type="button" class="button" id="loadMoreProjects" >Load More</button>
       <svg id='loading_icon' class="spinner" viewBox="0 0 50 50">
             <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
       </svg>
