@@ -384,8 +384,10 @@ header {
       width: 300px;
       padding-left: 32px; } }
 @media (min-width: 800px) {
-  .contact .contact-content .contact-info {
-    width: 450px; } }
+  .contact {
+    padding-top: 64px; }
+    .contact .contact-content .contact-info {
+      width: 450px; } }
 @media (min-width: 900px) {
   .sub-heading {
     text-align: left; }
