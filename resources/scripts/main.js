@@ -106,7 +106,7 @@ var totalProjectsCount = -1;
 var projectsData = null;    // we load data only once, this is to store cache.
 
 loadProjects();  // load 2 projects by default
-LOAD_PROJECTS_BTN.click(function(){
+LOAD_PROJECTS_BTN.click(function(e){
   // alert('load projects and append in project container');
   showLoading();
   setTimeout(loadProjects,1000); //artificial loading
@@ -138,11 +138,13 @@ LOAD_PROJECTS_BTN.click(function(){
   }
   function showLoading(){
     LOAD_PROJECTS_BTN.hide();
+    LOAD_PROJECTS_BTN.removeClass('fadeInUpAnimation');
     LOADING_iCON.show();
   }
   function hideLoading(){
-    LOADING_iCON.hide();
     LOAD_PROJECTS_BTN.show();
+    LOAD_PROJECTS_BTN.addClass('fadeInUpAnimation');
+    LOADING_iCON.hide();
   }
   function disableLoadProjectButton(){
     LOAD_PROJECTS_BTN.attr('disabled','true');
@@ -303,14 +305,17 @@ LOAD_PROJECTS_BTN.click(function(){
     //     offset: 200,
     // });
     //
-    // // for home section, to remove highlight about nav link when currently user is on home section
-    // new Waypoint({
-    //     element: $('#home'),
-    //     handler: function(direction) {
-    //         hightlightNavItemById('#home');
-    //         // console.log('scrolled to home');
-    //     }
-    // });
+
+    // for home section,
+    // to remove highlight from ABOUT nav link when currently user is on home section
+    // also to animate nav icon toggler on small screen
+    new Waypoint({
+        element: $('#home'),
+        handler: function(direction) {
+            hightlightNavItemById('#home');
+            // console.log('scrolled to home');
+        }
+    });
     //
     //
     function performAnimation(element){
