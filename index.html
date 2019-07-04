@@ -198,13 +198,14 @@
         <section class="contact" id="contact">
             <h3 class="sub-heading"><span>03.</span>Contact Me</h3>
             <div class="contact-content">
-                <form class="contact-form" action="index.html" method="post">
+                <form class="contact-form" action="index.html" id="gform" method="POST">
+
                     <div class="form-item">
-                        <input type="text" name="" placeholder="Name">
-                        <input type="text" name="" placeholder="Email">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="text" name="email" placeholder="Email" required>
                     </div>
                     <div class="form-item">
-                        <textarea name="Text1" cols="40" rows="5" placeholder="Message"></textarea>
+                        <textarea name="message" cols="40" rows="5" placeholder="Message"></textarea>
                     </div>
                     <input type="submit" class="button" value="Send">
                 </form>

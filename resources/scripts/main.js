@@ -454,3 +454,117 @@ ADD_TECH_BTN.click(function(e){
 
 
 
+
+
+
+
+
+
+
+
+
+
+/********** Handle Form Sending Email
+ ************************************************/
+/* attach a submit handler to the form */
+var form  = $('#gform');
+var CONTACTOR_NAME = $('#gform input[name="name"]');
+var CONTACTOR_EMAIL = $('#gform input[name="email"]');
+var CONTACTOR_MESSAGE = $('#gform textarea[name="message"]');
+
+
+
+form.submit(function (e) {
+    e.preventDefault();
+    disableSendBtn();
+
+    // *** grab the form data & clear the fields
+    var data = new ContactData();
+    data.name = CONTACTOR_NAME.val();
+    data.email = CONTACTOR_EMAIL.val();
+    data.message = CONTACTOR_MESSAGE.val();
+    clearFields();
+
+    sendData(data);
+});
+function sendData(data){
+    $.ajaxSetup({
+        headers: {
+            'Content-Type': "application/x-www-form-urlencoded"
+        }
+    });
+    $.ajax({
+        type: "POST",
+        url: 'https://script.google.com/macros/s/AKfycbzpXx2I1vzLyQkgkcyVr6c0KpvyPJ7blvLykmlK/exec',
+        async: true,
+        data: data,
+        success: function(data){
+            if(data.result === 'success'){
+                // console.log("Email Transferred successfully");
+                enableSendBtn();
+                showSuccessStatus();
+            }else{
+                console.log('Something goes wrong while sending the email');
+                showFailureStatus();
+            }
+        },
+        error: function (jqXHR, textStatus, error) {
+            console.log(error);
+            showFailureStatus();
+            enableSendBtn();
+        }
+    });
+
+}
+
+
+
+
+function enableSendBtn(){
+    $('#gform .button').removeAttr('disabled');
+}
+function disableSendBtn(){
+    $('#gform .button').attr('disabled','true');
+}
+function clearFields() {
+    CONTACTOR_NAME.val('');  // clear the field
+    CONTACTOR_EMAIL.val(''); // clear the field
+    CONTACTOR_MESSAGE.val('');  // clear the field
+}
+function showSuccessStatus() {
+    form.prepend('<span class="success">* Message successfully delivered</span>');
+    clearStatus();
+}
+function showFailureStatus() {
+    form.prepend('<span class="failure">* Error, while sending the message</span>');
+    clearStatus();
+}
+function clearStatus() {
+    setTimeout(function () {
+        $('#gform .success').hide();
+        $('#gform .failure').hide();
+    },2000);
+}
+function ContactData(){
+}
+
+
+
+
+// $("#gform").submit(function(event) {
+//
+//     /* stop form from submitting normally */
+//     event.preventDefault();
+//
+//     /* get the action attribute from the <form action=""> element */
+//     var $form = $( this );
+//     var url = $form.attr( 'action' );
+//
+//     /* Send the data using post with element id name and name2*/
+//     var posting = $.post( url, { name: $('#gform.name').val(), email: $('#gform.email').val(), message: $('#gform.message')} );
+//
+//     /* Alerts the results */
+//     posting.done(function( data ) {
+//         alert('success');
+//     });
+// });
