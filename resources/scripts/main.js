@@ -4,7 +4,7 @@ $(window).on('load',function () {
 });
 
 function onLoadingComplete(){
-    setTimeout(onPageLoadComplete,500);
+    setTimeout(onPageLoadComplete,1500);
 }
 
 function onPageLoadComplete(){
