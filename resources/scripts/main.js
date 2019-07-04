@@ -1,4 +1,20 @@
-$('document').ready(function(){
+
+function onLoadingComplete(){
+    setTimeout(onPageLoadComplete,1500);
+}
+
+function onPageLoadComplete(){
+    var pageLoading = $('.page-loading-container');
+    var pageContent = $('.pageContent');
+
+    pageContent.show();
+    pageLoading.hide();
+
+    onPageReady();
+}
+
+function onPageReady(){
+
 
   //******** Detect Scroll position and hide show nav
   const MAIN_NAV =  $('#main_sticky_nav');
@@ -320,8 +336,8 @@ LOAD_PROJECTS_BTN.click(function(e){
     //
     function performAnimation(element){
       console.log("Perform animation "+element.attr('id'));
-      if(!element.hasClass('fadeInUpAnimation')){ // we only want to perform animation at once
-        element.addClass('fadeInUpAnimation');
+      if(!element.hasClass('fadeInAnimation')){ // we only want to perform animation at once
+        element.addClass('fadeInAnimation');
       }
     }
 
@@ -381,7 +397,7 @@ const NAV = $('#main_sticky_nav');
     DRAWER_CLOSE_ICON.hide();
     DRAWER_OPEN_ICON.show();
   }
-});
+}
 
 
 
@@ -391,8 +407,7 @@ const NAV = $('#main_sticky_nav');
 
 /******************* Input file
 ***************************************************/
-( function ( document, window, index )
-{
+( function ( document, window, index ) {
 	var inputs = document.querySelectorAll( '.inputfile' );
 	Array.prototype.forEach.call( inputs, function( input )
 	{
@@ -435,7 +450,3 @@ ADD_TECH_BTN.click(function(e){
 
 
 
-
-
-/************ Animation
-****************************************************/
