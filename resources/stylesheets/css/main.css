@@ -116,6 +116,13 @@ img {
     transform-origin: bottom left;
     transform: scaleX(1); }
 
+i {
+  color: #8892b0;
+  font-size: 1.5em;
+  padding: 8px; }
+  i:hover {
+    color: #08f3d0; }
+
 .button {
   font-family: "SFMono";
   font-weight: normal;
@@ -341,15 +348,14 @@ header {
   .contact .contact-info {
     list-style: none;
     padding: 0; }
-    .contact .contact-info li {
+    .contact .contact-info li a {
       display: flex;
       align-items: center;
-      margin: 8px 0; }
-      .contact .contact-info li svg {
-        width: 48px;
-        height: 48px;
+      margin: 8px; }
+      .contact .contact-info li a i {
         margin-right: 16px;
-        fill: #8892b0; }
+        flex-basis: 48px;
+        flex-shrink: 0; }
 
 @media (min-width: 320px) {
   #main_nav_toggler {
@@ -512,13 +518,18 @@ header {
         .work .project-items-container .project-item .project-image {
           overflow: hidden;
           display: block;
-          position: relative; }
+          position: relative;
+          background: #08f3d0; }
           .work .project-items-container .project-item .project-image img {
             position: absolute;
             top: 0;
             z-index: 1;
             width: 520px;
-            height: 300px; }
+            height: 300px;
+            opacity: 0.5;
+            transition: opacity 0.5s ease-in-out; }
+            .work .project-items-container .project-item .project-image img:hover {
+              opacity: 1; }
         .work .project-items-container .project-item .project-title {
           padding: 8px 0;
           font-family: "SFMono";

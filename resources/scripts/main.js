@@ -1,6 +1,6 @@
 
 function onLoadingComplete(){
-    setTimeout(onPageLoadComplete,1500);
+    setTimeout(onPageLoadComplete,500);
 }
 
 function onPageLoadComplete(){
@@ -207,8 +207,8 @@ LOAD_PROJECTS_BTN.click(function(e){
             }
             project_item_html += '<ul class="project-technologies">'+projectsTechnologies+' </ul>';
             project_item_html += '<div class="project-links">'
-            project_item_html += '<a href="'+projectItem.githubLink+'"><svg><use href="#github-icon" /></svg></a>';
-            project_item_html += '<a href="'+projectItem.liveLink+'"><svg><use href="#external-link-icon" /></svg></a></div></div>';
+            project_item_html += '<a href="'+projectItem.githubLink+'"><i class="fab fa-github"></i></a>';
+            project_item_html += '<a href="'+projectItem.liveLink+'"><i class="fas fa-external-link-alt"></i></a></div></div>';
             PROJECTS_CONTAINER.append(project_item_html);
           }
   }
