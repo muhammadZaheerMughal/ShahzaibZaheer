@@ -1,4 +1,8 @@
 
+$(window).on('load',function () {
+    onLoadingComplete();
+});
+
 function onLoadingComplete(){
     setTimeout(onPageLoadComplete,500);
 }
