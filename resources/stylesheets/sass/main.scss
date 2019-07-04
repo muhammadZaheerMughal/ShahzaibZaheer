@@ -63,6 +63,8 @@
       padding: getGutter(1);
       &:hover{
         color: $accent-color;
+          transition: transform 0.1s ease-in-out;
+          transform: translateY(-5px);
       }
     }
     .button{

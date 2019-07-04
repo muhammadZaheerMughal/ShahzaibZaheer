@@ -70,7 +70,9 @@ i {
   font-size: 1.5em;
   padding: 8px; }
   i:hover {
-    color: #08f3d0; }
+    color: #08f3d0;
+    transition: transform 0.1s ease-in-out;
+    transform: translateY(-5px); }
 
 .button {
   font-family: "SFMono", "Arial", sans-serif;
