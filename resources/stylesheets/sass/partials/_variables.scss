@@ -34,6 +34,12 @@ $accent-color: #08f3d0;
 @function testBackground($color){
   @return rgba($color, 0.1);
 }
+// for local system
+//@function resourceURL($path){
+//    @return url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/" + $path );
+//}\
+
+//for github
 @function resourceURL($path){
-    @return url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/" + $path );
+    @return url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/" + $path );
 }

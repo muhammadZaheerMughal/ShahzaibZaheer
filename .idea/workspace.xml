@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/2d500853b2f50f2b54d734afa34ab0efa75936f7/_import_fonts.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/2d500853b2f50f2b54d734afa34ab0efa75936f7/_import_fonts.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/2d500853b2f50f2b54d734afa34ab0efa75936f7/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/2d500853b2f50f2b54d734afa34ab0efa75936f7/_variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/5ce01ecef955dccdfa0afc4c382a75b5acf05b5c/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/5ce01ecef955dccdfa0afc4c382a75b5acf05b5c/main.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/stylesheets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/stylesheets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/sass/partials/_import_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/sass/partials/_import_fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +38,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="390">
               <caret line="177" column="36" lean-forward="true" selection-start-line="177" selection-start-column="36" selection-end-line="177" selection-end-column="36" />
               <folding>
                 <element signature="n#!!block;n#onPageLoadComplete#0" />
@@ -64,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="37" column="68" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="68" />
+            <state relative-caret-position="525">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -73,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="-832">
               <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="e#126#192#0" />
@@ -128,9 +123,9 @@
         <option value="$PROJECT_DIR$/vendor/scripts/waypoints.js" />
         <option value="$PROJECT_DIR$/resources/stylesheets/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_import_fonts.scss" />
+        <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" />
         <option value="$PROJECT_DIR$/resources/scripts/main.js" />
       </list>
     </option>
@@ -251,12 +246,12 @@
       <workItem from="1562013294859" duration="2052000" />
       <workItem from="1562224700628" duration="9909000" />
       <workItem from="1562270903999" duration="7011000" />
-      <workItem from="1562307155215" duration="3590000" />
+      <workItem from="1562307155215" duration="3804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40100000" />
+    <option name="totallyTimeSpent" value="40314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -275,7 +270,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.61898017" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.07223796" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.6827195" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,34 +370,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#126#192#0" />
-            <element signature="e#198#457#0" />
-            <element signature="e#385#451#0" />
-            <element signature="e#480#514#0" />
-            <element signature="e#637#701#0" />
-            <element signature="e#711#1164#0" />
-            <element signature="e#783#1060#0" />
-            <element signature="e#1080#1158#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
           <caret line="102" column="1" lean-forward="true" selection-end-line="102" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="37" column="68" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -423,9 +394,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#126#192#0" />
+            <element signature="e#198#457#0" />
+            <element signature="e#385#451#0" />
+            <element signature="e#480#514#0" />
+            <element signature="e#637#701#0" />
+            <element signature="e#711#1164#0" />
+            <element signature="e#783#1060#0" />
+            <element signature="e#1080#1158#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
+        <state relative-caret-position="390">
           <caret line="177" column="36" lean-forward="true" selection-start-line="177" selection-start-column="36" selection-end-line="177" selection-end-column="36" />
           <folding>
             <element signature="n#!!block;n#onPageLoadComplete#0" />

@@ -3,27 +3,27 @@ body {
 
 @font-face {
   font-family: "Calibre";
-  src: url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/Calibre_regular.woff") format("woff"), url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/Calibre_regular.woff2") format("woff2"), url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/Calibre_regular.ttf") format("truetype");
+  src: url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/Calibre_regular.woff") format("woff"), url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/Calibre_regular.woff2") format("woff2"), url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/Calibre_regular.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-weight: normal; }
 @font-face {
   font-family: "Calibre";
-  src: url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/Calibre_medium.woff") format("woff"), url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/Calibre_medium.woff2") format("woff2"), url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/Calibre_medium.ttf") format("truetype");
+  src: url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/Calibre_medium.woff") format("woff"), url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/Calibre_medium.woff2") format("woff2"), url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/Calibre_medium.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-weight: medium; }
 @font-face {
   font-family: "Calibre";
-  src: url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/Calibre_semibold.woff") format("woff"), url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/Calibre_semibold.woff2") format("woff2"), url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/Calibre_semibold.ttf") format("truetype");
+  src: url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/Calibre_semibold.woff") format("woff"), url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/Calibre_semibold.woff2") format("woff2"), url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/Calibre_semibold.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-weight: bold; }
 @font-face {
   font-family: "SFMono";
-  src: url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/SFMono_regular.woff") format("woff"), url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/SFMono_regular.woff2") format("woff2"), url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/SFMono_regular.ttf") format("truetype");
+  src: url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/SFMono_regular.woff") format("woff"), url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/SFMono_regular.woff2") format("woff2"), url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/SFMono_regular.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-weight: normal; }
 @font-face {
   font-family: "SFMono";
-  src: url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/SFMono_semibold.woff") format("woff"), url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/SFMono_semibold.woff2") format("woff2"), url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/fonts/SFMono_semibold.ttf") format("truetype");
+  src: url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/SFMono_semibold.woff") format("woff"), url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/SFMono_semibold.woff2") format("woff2"), url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/fonts/SFMono_semibold.ttf") format("truetype");
   /* Safari, Android, iOS */
   font-weight: bold; }
 /**** General & Defaults
@@ -367,7 +367,7 @@ header {
       height: 100%;
       top: 0;
       left: 0;
-      background-image: url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/images/shahzaib.jpg");
+      background-image: url("https://shahzaibmughal.github.io/ShahzaibZaheer/resources/images/shahzaib.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position-x: center;
