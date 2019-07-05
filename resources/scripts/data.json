@@ -1,103 +1,37 @@
 {
   "projects":[
       {
-        "image": "https://picsum.photos/520/320",
-        "title" : "This is project title",
-        "description" : "This is project description",
+        "image": "https://lh3.googleusercontent.com/WdUJmtl7-EtLvqeuvJboqvOrQqrKZW-f_y6q86dUuOWqPEGo87JVTw359GvMqCu7cNp4DDEQvEBYpa9TGETJmSs5LZlzGqZIV8QgwB1gFV176-jlv4pR3ewhAXmlrxLt9NprPg5yjXRn-eh6al0g1UXGF0xaCGG2BWBJTJQvjf05UjCtqxc0FPX44OV3iKpDUgsEVWksaJBMhG0PzngHPRPv4Sgs3i5gLXmfKQbhVrSRV8QqyGj81MxKpUkcSM0WqDKnI478yjpJUlngA5xypY78eqduHBPlNNGpEX6Fv45DyZiO4hbAyK7nFKpU5wgkShIofoWI790N1DsSLlOvfI7dGNKL3LGRBQmP4eAljgA3Tmx1JHeVn9w5eFm9M6AEBYhqIUf0m-OyE82HsABSZPAOCO3ymXoSlp5GqH8B6FY57zj0SextYbz2W8qfBtlQKzSKIVFN-VQJHIBs_A1firaubCLKObO2hXGFM5O1J9xCr3ecpV3ROtNULFRpm2Ud8kBI_S9NKQhBMX6Xz4hbxgBmrxkryNNT2eL7Ki8qIbINtShZmrJmjWqjtrsUNvAaksLx1DngCX2G7rkC1sAvH7qpda4rnIuZh9P3DBI=w1062-h887",
+        "title" : "Tic Tac Toe",
+        "description" : "I create this Tic Tac Toe Game, to practice javascript",
         "technologies" :
             [
-                "Tect1","Tect2","Tect3","Tect4"
+                "HTML","CSS","JavaScript"
             ],
-        "githubLink" : "https://www.github.com",
-        "liveLink" : "https://www.google.com"
+        "githubLink" : "https://github.com/shahzaibMughal/tictaktoe",
+        "liveLink" : "https://shahzaibmughal.github.io/tictaktoe/index.html"
       },
       {
-        "image": "https://picsum.photos/520/320",
-        "title" : "This is project title",
-        "description" : "This is project description",
+        "image": "https://lh3.googleusercontent.com/9qDPUu-22t2D9gczNt5sDX5ZepKFiveAsEXC-dLw77S4R7E5P4as8VXRGHQIBgezKTouL0x1rgF6wUy0p2YSXHtIuzT1ZxLjMvcNb0b-pRToIovmiylgNSDrQLiuSJ5oM3LSvjMD1oPFVgLwZfWLibLtzQ_pNiBoZG62dvWCMiYNeujzuNVkisjSUYT3Orug4uj7HMW5FytaweqaiVpnTuGyIx18bp6Q911Z0z8_s4jQuJWJbO02yItlgeXn58mEBhdmLD3q63wiHjPX_Xei1rMZJ6jrC0AqLxO-giRXgBv_BoBga9WgARNjBwwiMsTWfBNkL4yH8bTxqi3ocp62tAcrzuoCQkUjKWVO82Q2V1vbaFaAGJcd6LNkXhWXWfSrXQNRT76pOdnAA4xET6w3ErN5vdYOeuzKq2gh2li_yajGSCRPc_fDp61_9gHP9l6rJW5cJODCDcqcSGcJtWmK1FNMyAP-LSR2BjcFHTznzDO-MYET-oYLKSfuPccbUAT0MGTDCjNMOZWgtzYMaGTNyewYZ0G3tR2lOcN6eTuX3ICJLo8P-OmxsSP3Epz028V4aWXTZIgRNLYlr_U80FQ3wnPnRW0jDdCB32ATaIY=w1062-h887",
+        "title" : "Color Game",
+        "description" : "This is a guessing game, In this game, user refresh the page or click on New Colors Button to get the new colors. And then guess the correct color.",
         "technologies" :
-            [
-                "Tect1","Tect2","Tect3","Tect4"
-            ],
-        "githubLink" : "https://www.github.com",
-        "liveLink" : "https://www.google.com"
+        [
+          "HTML","CSS","JavaScript"
+        ],
+        "githubLink" : "https://github.com/shahzaibMughal/ColorGame",
+        "liveLink" : "https://shahzaibmughal.github.io/ColorGame/index.html"
       },
       {
-        "image": "https://picsum.photos/520/320",
-        "title" : "This is project title",
-        "description" : "This is project description",
+        "image": "https://lh3.googleusercontent.com/4ykzKbsmYsrxv4i42gVo0xQcAUbPusI0IA0tBp2G_eBxySZLUfrvTF79GOpDnoX0APF51jZu2K1fJbafTrMWQngvgw1SA6rq2QcjSjTWr6ytzXJjWrjEw_FOMdkvrjHgXex7UzSUgVDw09TcWNRG9LTepY6ZgNp7-isXaC8SveGsFF1e3Fs3HPuy2Vcdc7kCyndWKNpZmfqeftkEVnxQug_cAIotXiyhm7oHhcMevbrqMIJG-D1WJxb64oXD12jsTWQYTKaDmheu98A1svAwKYIw0_1j0UPLYkXAGiU4GVPRxPFSSUi1z3VzerInN2-k0ihesEeKw1aDWEsKxNBgDlPHUGORYbkUjJMBj1bz-fEBs6cLgEPRomn8LKLMnfHFnEtVLWrdt-o6muf_0IEfly-n_JYabMbiNA7lWkSuvIzTDrPL-L4_Rnr0IKY13_tmGLUtOnNaklDi-5lGhS6v86YQrtzHGdy_S4nQoqO4GgWBJLZGf-xn_ZfM9g_iId_yUo_eKU-oIx9nY7A5cXvLTncv1jnQKWeioN-gGw48leezfyKpsgWGKp6jptFgwhNnqp1iwoFnGpXafkosdOEK36wWmS91l-jvsdVwEuY=w1920-h908",
+        "title" : "Todo List",
+        "description" : "Todo list UI, in which user can add todo items, mark as completed, delete item.",
         "technologies" :
-            [
-                "Tect1","Tect2","Tect3","Tect4"
-            ],
-        "githubLink" : "https://www.github.com",
-        "liveLink" : "https://www.google.com"
-      },
-      {
-        "image": "https://picsum.photos/520/320",
-        "title" : "This is project title",
-        "description" : "This is project description",
-        "technologies" :
-            [
-                "Tect1","Tect2","Tect3","Tect4"
-            ],
-        "githubLink" : "https://www.github.com",
-        "liveLink" : "https://www.google.com"
-      },
-      {
-        "image": "https://picsum.photos/520/320",
-        "title" : "This is project title",
-        "description" : "This is project description",
-        "technologies" :
-            [
-                "Tect1","Tect2","Tect3","Tect4","tech5"
-            ],
-        "githubLink" : "https://www.github.com",
-        "liveLink" : "https://www.google.com"
-      },
-      {
-        "image": "https://picsum.photos/520/320",
-        "title" : "This is project title",
-        "description" : "This is project description",
-        "technologies" :
-            [
-                "Tect1","Tect2","Tect3","Tect4"
-            ],
-        "githubLink" : "https://www.github.com",
-        "liveLink" : "https://www.google.com"
-      },
-      {
-        "image": "https://picsum.photos/520/320",
-        "title" : "This is project title",
-        "description" : "This is project description",
-        "technologies" :
-            [
-                "Tect1","Tect2","Tect3","Tect4"
-            ],
-        "githubLink" : "https://www.github.com",
-        "liveLink" : "https://www.google.com"
-      },
-      {
-        "image": "https://picsum.photos/520/320",
-        "title" : "This is project title",
-        "description" : "This is project description",
-        "technologies" :
-            [
-                "Tect1","Tect2","Tect3","Tect4","tech5"
-            ],
-        "githubLink" : "https://www.github.com",
-        "liveLink" : "https://www.google.com"
-      },
-      {
-        "image": "https://picsum.photos/520/320",
-        "title" : "This is project title",
-        "description" : "This is project description",
-        "technologies" :
-            [
-                "Tect1","Tect2","Tect3","Tect4"
-            ],
-        "githubLink" : "https://www.github.com",
-        "liveLink" : "https://www.google.com"
+        [
+          "HTML","CSS","JavaScript"
+        ],
+        "githubLink" : "https://github.com/shahzaibMughal/TodoList",
+        "liveLink" : "https://shahzaibmughal.github.io/TodoList/index"
       }
   ]
 }
