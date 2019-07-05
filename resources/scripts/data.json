@@ -1,7 +1,7 @@
 {
   "projects":[
       {
-        "image": "https://github.com/shahzaibMughal/ShahzaibZaheer/resources/screenshorts/tictactoe.jpg",
+        "image": "https://shahzaibmughal.github.io/ShahzaibZaheer/resources/screenshorts/tictactoe.jpg",
         "title" : "Tic Tac Toe",
         "description" : "I create this Tic Tac Toe Game, to practice javascript",
         "technologies" :
@@ -12,7 +12,7 @@
         "liveLink" : "https://shahzaibmughal.github.io/tictaktoe/index.html"
       },
       {
-        "image": "https://github.com/shahzaibMughal/ShahzaibZaheer/resources/screenshorts/colorgame.jpg",
+        "image": "https://shahzaibmughal.github.io/ShahzaibZaheer/resources/screenshorts/colorgame.jpg",
         "title" : "Color Game",
         "description" : "This is a guessing game, In this game, user refresh the page or click on New Colors Button to get the new colors. And then guess the correct color.",
         "technologies" :
@@ -23,7 +23,7 @@
         "liveLink" : "https://shahzaibmughal.github.io/ColorGame/index.html"
       },
       {
-        "image": "https://github.com/shahzaibMughal/ShahzaibZaheer/resources/screenshorts/todo.jpg",
+        "image": "https://shahzaibmughal.github.io/ShahzaibZaheer/resources/screenshorts/todo.jpg",
         "title" : "Todo List",
         "description" : "Todo list UI, in which user can add todo items, mark as completed, delete item.",
         "technologies" :

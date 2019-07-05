@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="" />
+    <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="199">
+              <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -150,6 +152,12 @@
               <item name="ShahzaibZaheer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="screenshorts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ShahzaibZaheer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="stylesheets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -184,6 +192,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\screenshorts" />
       <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\fonts" />
     </key>
   </component>
@@ -221,17 +230,18 @@
       <workItem from="1562224700628" duration="9909000" />
       <workItem from="1562270903999" duration="7011000" />
       <workItem from="1562307155215" duration="4562000" />
-      <workItem from="1562346320503" duration="2101000" />
+      <workItem from="1562346320503" duration="2665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43173000" />
+    <option name="totallyTimeSpent" value="43737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -393,8 +403,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="199">
+          <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
         </state>
       </provider>
     </entry>
