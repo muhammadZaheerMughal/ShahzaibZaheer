@@ -1,6 +1,28 @@
 {
   "projects":[
       {
+        "image": "https://shahzaibmughal.github.io/ShahzaibZaheer/resources/screenshorts/eztaxi.jpg",
+        "title" : "EZTaxi",
+        "description" : "EZTaxi Homepage design is created to practice, how to implement Slider, NavPane & Carousel.",
+        "technologies" :
+            [
+                "HTML","CSS","JS","Jquery","Bootstrap"
+            ],
+        "githubLink" : "https://github.com/shahzaibMughal/EZTaxi",
+        "liveLink" : "https://shahzaibmughal.github.io/EZTaxi/index.html"
+      },
+      {
+        "image": "https://shahzaibmughal.github.io/ShahzaibZaheer/resources/screenshorts/ifood.jpg",
+        "title" : "iFood",
+        "description" : "iFood is created to practice HTML ,CSS ,jQuery and Media Queries (used for making responsive websites)",
+        "technologies" :
+            [
+                "HTML","CSS","Jquery"
+            ],
+        "githubLink" : "https://github.com/shahzaibMughal/iFood",
+        "liveLink" : "https://shahzaibmughal.github.io/iFood/index.html"
+      },
+      {
         "image": "https://shahzaibmughal.github.io/ShahzaibZaheer/resources/screenshorts/tictactoe.jpg",
         "title" : "Tic Tac Toe",
         "description" : "I create this Tic Tac Toe Game, to practice javascript",
