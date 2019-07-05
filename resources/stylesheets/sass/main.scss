@@ -29,7 +29,7 @@
     }
     body{
       background: $background-color;
-      padding: getGutter(1);
+        padding: getGutter(1);
       // margin-top: getGutter(4);
     }
     a{
@@ -501,7 +501,8 @@
           height: 100%;
           top: 0;
           left: 0;
-          background-image: url('/resources/images/shahzaib.jpg');
+          //background-image: url('/resources/images/shahzaib.jpg');
+          background-image: resourceURL('images/shahzaib.jpg');
           background-repeat: no-repeat;
           background-size: cover;
           background-position-x: center;

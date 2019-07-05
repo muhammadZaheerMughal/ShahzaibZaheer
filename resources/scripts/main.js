@@ -174,18 +174,18 @@ LOAD_PROJECTS_BTN.click(function(e){
     // LOAD_PROJECTS_BTN.hide();
   }
   function downloadData(){
-    var url = '/resources/scripts/data.json';
+    var url = 'Shahzaib/Zaheer/resources/scripts/data.json';
     var onSuccess = function (data){
         projectsData = data;
         totalProjectsCount = projectsData.projects.length;
         extractAndAppendProjects();
-    }
+    };
     var onFailure = function (jqXHR, textStatus, error) {
       console.log("Error occur");
       console.log(jqXHR);
       console.log(textStatus);
       console.log(error);
-    }
+    };
 
     $.ajax({
       type: "GET",

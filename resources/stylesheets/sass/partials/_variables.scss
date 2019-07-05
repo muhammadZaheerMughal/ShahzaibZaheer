@@ -34,3 +34,6 @@ $accent-color: #08f3d0;
 @function testBackground($color){
   @return rgba($color, 0.1);
 }
+@function resourceURL($path){
+    @return url("C:/Users/Shahzaib/Desktop/ShahzaibZaheer/resources/" + $path );
+}

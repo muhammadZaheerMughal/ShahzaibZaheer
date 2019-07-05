@@ -4,19 +4,31 @@
 @mixin font($font-family,$font-weight, $font-file) {
   @font-face {
     font-family: $font-family;
-    src: url($font-file+'.woff') format('woff'), /* Pretty Modern Browsers */
-         url($font-file+'.woff2') format('woff2'), /* Super Modern Browsers */
-         url($font-file+'.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: resourceURL($font-file+'.woff') format('woff'), /* Pretty Modern Browsers */
+         resourceURL($font-file+'.woff2') format('woff2'), /* Super Modern Browsers */
+         resourceURL($font-file+'.ttf') format('truetype'); /* Safari, Android, iOS */
 
     font-weight: $font-weight;
   }
 }
 
-@include font('Calibre',normal, '/resources/fonts/Calibre_regular');
-@include font('Calibre',medium, '/resources/fonts/Calibre_medium');
-@include font('Calibre',bold, '/resources/fonts/Calibre_semibold');
-@include font('SFMono',normal, '/resources/fonts/SFMono_regular');
-@include font('SFMono',bold, '/resources/fonts/SFMono_semibold');
+body{
+    background-image: url("../../../images/shahzaib.jpg");
+}
+//
+//@include font('Calibre',normal, '/resources/fonts/Calibre_regular');
+//@include font('Calibre',medium, '/resources/fonts/Calibre_medium');
+//@include font('Calibre',bold, '/resources/fonts/Calibre_semibold');
+//@include font('SFMono',normal, '/resources/fonts/SFMono_regular');
+//@include font('SFMono',bold, '/resources/fonts/SFMono_semibold');
+
+
+
+@include font('Calibre',normal, 'fonts/Calibre_regular');
+@include font('Calibre',medium, 'fonts/Calibre_medium');
+@include font('Calibre',bold, 'fonts/Calibre_semibold');
+@include font('SFMono',normal, 'fonts/SFMono_regular');
+@include font('SFMono',bold, 'fonts/SFMono_semibold');
 
 
 
