@@ -1,18 +1,18 @@
 {
   "projects":[
       {
-        "image": "https://www.shahzaibzaheer.com/resources/screenshorts/bp_diagnosis_system.jpg",
+        "image": "https://shahzaibzaheer.com/resources/screenshorts/bp_diagnosis_system.jpg",
         "title" : "BPD System",
         "description" : "BP Diagnosis System helps patients to interact with doctors about their health problems. Admin access & Change Password functionality is removed in this demo",
         "technologies" :
             [
-                "PHP","MySQL","HTML","Sass","JS","Bootstrap"
+                "PHP","MySQL","Bootstrap"
             ],
         "githubLink" : "https://github.com/shahzaibMughal/BP_Diagnosis_System",
         "liveLink" : "https://bp-diagnosis-system.000webhostapp.com"
       },
       {
-        "image": "https://www.shahzaibzaheer.com/resources/screenshorts/eztaxi.jpg",
+        "image": "https://shahzaibzaheer.com/resources/screenshorts/eztaxi.jpg",
         "title" : "EZTaxi",
         "description" : "EZTaxi Homepage design is created to practice, how to implement Slider, NavPane & Carousel.",
         "technologies" :
@@ -23,7 +23,7 @@
         "liveLink" : "https://shahzaibmughal.github.io/EZTaxi/index.html"
       },
       {
-        "image": "https://www.shahzaibzaheer.com/resources/screenshorts/ifood.jpg",
+        "image": "https://shahzaibzaheer.com/resources/screenshorts/ifood.jpg",
         "title" : "iFood",
         "description" : "iFood is created to practice HTML ,CSS ,jQuery and Media Queries (used for making responsive websites)",
         "technologies" :
@@ -34,7 +34,7 @@
         "liveLink" : "https://shahzaibmughal.github.io/iFood/index.html"
       },
       {
-        "image": "https://www.shahzaibzaheer.com/resources/screenshorts/tictactoe.jpg",
+        "image": "https://shahzaibzaheer.com/resources/screenshorts/tictactoe.jpg",
         "title" : "Tic Tac Toe",
         "description" : "I create this Tic Tac Toe Game, to practice javascript",
         "technologies" :
@@ -45,7 +45,7 @@
         "liveLink" : "https://shahzaibmughal.github.io/tictaktoe/index.html"
       },
       {
-        "image": "https://www.shahzaibzaheer.com/resources/screenshorts/colorgame.jpg",
+        "image": "https://shahzaibzaheer.com/resources/screenshorts/colorgame.jpg",
         "title" : "Color Game",
         "description" : "This is a guessing game, In this game, user refresh the page or click on New Colors Button to get the new colors. And then guess the correct color.",
         "technologies" :
@@ -56,7 +56,7 @@
         "liveLink" : "https://shahzaibmughal.github.io/ColorGame/index.html"
       },
       {
-        "image": "https://www.shahzaibzaheer.com/resources/screenshorts/todo.jpg",
+        "image": "https://shahzaibzaheer.com/resources/screenshorts/todo.jpg",
         "title" : "Todo List",
         "description" : "Todo list UI, in which user can add todo items, mark as completed, delete item.",
         "technologies" :

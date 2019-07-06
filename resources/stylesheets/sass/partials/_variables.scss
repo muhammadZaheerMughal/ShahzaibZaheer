@@ -41,5 +41,5 @@ $accent-color: #08f3d0;
 
 //for github
 @function resourceURL($path){
-    @return url("https://www.shahzaibzaheer.com/resources/" + $path );
+    @return url("https://shahzaibzaheer.com/resources/" + $path );
 }
