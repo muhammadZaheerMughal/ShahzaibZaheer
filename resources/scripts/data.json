@@ -2,7 +2,7 @@
   "projects":[
       {
         "image": "https://shahzaibmughal.github.io/ShahzaibZaheer/resources/screenshorts/bp_diagnosis_system.jpg",
-        "title" : "BP Diagnosis System",
+        "title" : "BPD System",
         "description" : "BP Diagnosis System helps patients to interact with doctors about their health problems. Admin access & Change Password functionality is removed in this demo",
         "technologies" :
             [
