@@ -1,12 +1,23 @@
 {
   "projects":[
       {
+        "image": "https://shahzaibmughal.github.io/ShahzaibZaheer/resources/screenshorts/bp_diagnosis_system.jpg",
+        "title" : "BP Diagnosis System",
+        "description" : "BP Diagnosis System helps patients to interact with doctors about their health problems. Admin access & Change Password functionality is removed in this demo",
+        "technologies" :
+            [
+                "PHP","MySQL","HTML","Sass","JS","Bootstrap"
+            ],
+        "githubLink" : "https://github.com/shahzaibMughal/BP_Diagnosis_System",
+        "liveLink" : "https://bp-diagnosis-system.000webhostapp.com"
+      },
+      {
         "image": "https://shahzaibmughal.github.io/ShahzaibZaheer/resources/screenshorts/eztaxi.jpg",
         "title" : "EZTaxi",
         "description" : "EZTaxi Homepage design is created to practice, how to implement Slider, NavPane & Carousel.",
         "technologies" :
             [
-                "HTML","CSS","JS","Jquery","Bootstrap"
+                "HTML","Sass","JS","Jquery","Bootstrap"
             ],
         "githubLink" : "https://github.com/shahzaibMughal/EZTaxi",
         "liveLink" : "https://shahzaibmughal.github.io/EZTaxi/index.html"
