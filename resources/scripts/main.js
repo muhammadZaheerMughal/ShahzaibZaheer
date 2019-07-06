@@ -174,7 +174,7 @@ LOAD_PROJECTS_BTN.click(function(e){
     // LOAD_PROJECTS_BTN.hide();
   }
   function downloadData(){
-    var url = 'https://shahzaibmughal.github.io/ShahzaibZaheer/resources/scripts/data.json';
+    var url = 'https://shahzaibzaheer.com/resources/scripts/data.json';
     var onSuccess = function (data){
         projectsData = data;
         totalProjectsCount = projectsData.projects.length;
