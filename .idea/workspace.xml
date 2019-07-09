@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index-uncompressed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/5ce01ecef955dccdfa0afc4c382a75b5acf05b5c/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/5ce01ecef955dccdfa0afc4c382a75b5acf05b5c/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scripts/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scripts/jquery-uncompressed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/scripts/waypoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scripts/waypoints-uncompressed.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +18,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index-uncompressed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="26" column="65" lean-forward="true" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+            <state relative-caret-position="364">
+              <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#p#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#1;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -35,64 +36,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/stylesheets/css/main.css">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+            <state>
+              <caret column="170" lean-forward="true" selection-start-column="170" selection-end-column="170" />
               <folding>
-                <element signature="n#!!block;n#onPageLoadComplete#0" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="43" column="54" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#126#192#0" />
-                <element signature="e#198#457#0" />
-                <element signature="e#385#451#0" />
-                <element signature="e#480#514#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_import_fonts.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -117,7 +67,13 @@
       <find>loadMoreProjects</find>
       <find>url</find>
       <find>font-weight</find>
+      <find>const</find>
+      <find>&lt;a</find>
+      <find>&lt;a</find>
     </findStrings>
+    <replaceStrings>
+      <replace>var</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,11 +84,13 @@
         <option value="$PROJECT_DIR$/vendor/scripts/waypoints.js" />
         <option value="$PROJECT_DIR$/resources/stylesheets/css/main.css" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" />
-        <option value="$PROJECT_DIR$/resources/scripts/main.js" />
         <option value="$PROJECT_DIR$/resources/scripts/data.json" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_import_fonts.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" />
+        <option value="$PROJECT_DIR$/resources/scripts/main.js" />
+        <option value="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" />
+        <option value="$PROJECT_DIR$/index0.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -167,6 +125,12 @@
               <item name="ShahzaibZaheer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scripts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ShahzaibZaheer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="stylesheets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -175,6 +139,30 @@
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="stylesheets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ShahzaibZaheer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ShahzaibZaheer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fontawesome" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ShahzaibZaheer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fontawesome" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ShahzaibZaheer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scripts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -185,19 +173,21 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/screenshorts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\screenshorts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\scripts" />
       <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\screenshorts" />
       <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\screenshorts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,18 +232,18 @@
       <workItem from="1562505290903" duration="592000" />
       <workItem from="1562526363929" duration="2560000" />
       <workItem from="1562615275794" duration="1244000" />
-      <workItem from="1562704905277" duration="3919000" />
+      <workItem from="1562704905277" duration="5843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60715000" />
+    <option name="totallyTimeSpent" value="62639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,7 +256,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.61898017" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.66855526" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.38101983" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -318,26 +308,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/scripts/waypoints.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#1232#1280#0" />
-            <element signature="e#1340#1460#0" />
-            <element signature="e#1569#1664#0" />
-            <element signature="e#1773#1817#0" />
-            <element signature="e#1924#1994#0" />
-            <element signature="e#2097#2133#0" />
-            <element signature="e#2244#2284#0" />
-            <element signature="e#2338#2593#0" />
-            <element signature="e#2699#2736#0" />
-            <element signature="e#2983#3135#0" />
-            <element signature="e#3241#3278#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/images/call_icon.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -361,33 +331,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fontawesome/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="4364" column="24" selection-start-line="4364" selection-start-column="24" selection-end-line="4364" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_import_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="26" column="65" lean-forward="true" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#p#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#p#1;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,6 +351,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="136" column="5" lean-forward="true" selection-end-line="526" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/main-uncompressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="447" column="9" lean-forward="true" selection-start-line="447" selection-start-column="9" selection-end-line="447" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fontawesome/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="4364" column="24" selection-start-line="4364" selection-start-column="24" selection-end-line="4364" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/scripts/waypoints-uncompressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#1232#1280#0" />
+            <element signature="e#1340#1460#0" />
+            <element signature="e#1569#1664#0" />
+            <element signature="e#1773#1817#0" />
+            <element signature="e#1924#1994#0" />
+            <element signature="e#2097#2133#0" />
+            <element signature="e#2244#2284#0" />
+            <element signature="e#2338#2593#0" />
+            <element signature="e#2699#2736#0" />
+            <element signature="e#2983#3135#0" />
+            <element signature="e#3241#3278#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/scripts/jquery-uncompressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/stylesheets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -411,12 +408,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fontawesome/css/all.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/scripts/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="141" column="22" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+        <state>
+          <caret column="170" lean-forward="true" selection-start-column="170" selection-end-column="170" />
           <folding>
-            <element signature="n#!!block;n#onPageLoadComplete#0" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-uncompressed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
