@@ -4,25 +4,21 @@
 @mixin font($font-family,$font-weight, $font-file) {
   @font-face {
     font-family: $font-family;
-    src: resourceURL($font-file+'.woff') format('woff'), /* Pretty Modern Browsers */
-         resourceURL($font-file+'.woff2') format('woff2'), /* Super Modern Browsers */
+      src: local($font-family)
+            resourceURL($font-file+'.woff2') format('woff2'), /* Super Modern Browsers */
+         resourceURL($font-file+'.woff') format('woff'), /* Pretty Modern Browsers */
          resourceURL($font-file+'.ttf') format('truetype'); /* Safari, Android, iOS */
 
     font-weight: $font-weight;
+    font-style: normal;  font-display: swap;
+    unicode-range: U+000-5FF; /* Download only latin glyphs */
+
   }
 }
 
 body{
     background-image: url("../../../images/shahzaib.jpg");
 }
-//
-//@include font('Calibre',normal, '/resources/fonts/Calibre_regular');
-//@include font('Calibre',medium, '/resources/fonts/Calibre_medium');
-//@include font('Calibre',bold, '/resources/fonts/Calibre_semibold');
-//@include font('SFMono',normal, '/resources/fonts/SFMono_regular');
-//@include font('SFMono',bold, '/resources/fonts/SFMono_semibold');
-
-
 
 @include font('Calibre',normal, 'fonts/Calibre_regular');
 @include font('Calibre',medium, 'fonts/Calibre_medium');
@@ -34,64 +30,3 @@ body{
 
 
 
-
-
-
-//*********************** Calibre Fonts
-
-//
-// @font-face {
-//     font-family: 'a';
-//     src: url('fonts/Calibre/Calibre_medium.woff2') format('woff2'), /* Super Modern Browsers */
-//          url('fonts/Calibre/Calibre_medium.woff') format('woff'), /* Pretty Modern Browsers */
-//          url('/fonts/Calibre/Calibre_medium.ttf')  format('truetype'); /* Safari, Android, iOS */
-//
-// }
-
-
-
-//
-// @font-face {
-//   font-family: 'Calibre';
-//   src: url('fonts/Calibre/Calibre-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-//        url('fonts/Calibre/Calibre-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-//        url('/fonts/Calibre/Calibre-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
-//   font-weight: 300;
-// }
-// @font-face {
-//   font-family: 'Calibre';
-//   src: url('fonts/Calibre/Calibre-Medium.woff2') format('woff2'), /* Super Modern Browsers */
-//        url('fonts/Calibre/Calibre-Medium.woff') format('woff'), /* Pretty Modern Browsers */
-//        url('fonts/Calibre/Calibre-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
-//   font-weight: 400;
-// }
-// @font-face {
-//   font-family: 'Calibre';
-//   src: url('fonts/Calibre/Calibre-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
-//        url('fonts/Calibre/Calibre-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
-//        url('fonts/Calibre/Calibre-Semibold.ttf')  format('truetype'); /* Safari, Android, iOS */
-//   font-weight: 500;
-// }
-//
-// //*********************** SF MONO Fonts
-// @font-face {
-//   font-family: 'SFMono';
-//   src: url('fonts/SFMono/SFMono-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-//        url('fonts/SFMono/SFMono-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-//        url('fonts/SFMono/SFMono-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
-//   font-weight: 300;
-// }
-// @font-face {
-//   font-family: 'SFMono';
-//   src: url('fonts/SFMono/SFMono-Medium.woff2') format('woff2'), /* Super Modern Browsers */
-//        url('fonts/SFMono/SFMono-Medium.woff') format('woff'), /* Pretty Modern Browsers */
-//        url('fonts/SFMono/SFMono-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
-//   font-weight: 400;
-// }
-// @font-face {
-//   font-family: 'SFMono';
-//   src: url('fonts/SFMono/SFMono-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
-//        url('fonts/SFMono/SFMono-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
-//        url('fonts/SFMono/SFMono-Semibold.ttf')  format('truetype'); /* Safari, Android, iOS */
-//   font-weight: 500;
-// }
