@@ -8,8 +8,7 @@
       font-style: normal;
       font-display: swap;
       unicode-range: U+000-5FF; /* Download only latin glyphs */
-      src: local($font-family)
-            resourceURL($font-file+'.woff2') format('woff2'), /* Super Modern Browsers */
+      src:  resourceURL($font-file+'.woff2') format('woff2'), /* Super Modern Browsers */
             resourceURL($font-file+'.woff') format('woff'), /* Pretty Modern Browsers */
             resourceURL($font-file+'.ttf') format('truetype'); /* Safari, Android, iOS */
   }
