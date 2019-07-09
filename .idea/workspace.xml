@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index-uncompressed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/scripts/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scripts/jquery-uncompressed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/scripts/waypoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/scripts/waypoints-uncompressed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-uncompressed.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-uncompressed.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index-uncompressed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+            <state relative-caret-position="286">
+              <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -91,6 +85,7 @@
         <option value="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" />
         <option value="$PROJECT_DIR$/index0.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index-uncompressed.html" />
       </list>
     </option>
   </component>
@@ -232,12 +227,12 @@
       <workItem from="1562505290903" duration="592000" />
       <workItem from="1562526363929" duration="2560000" />
       <workItem from="1562615275794" duration="1244000" />
-      <workItem from="1562704905277" duration="5843000" />
+      <workItem from="1562704905277" duration="6091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62639000" />
+    <option name="totallyTimeSpent" value="62887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -411,9 +406,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/fontawesome/css/all.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/scripts/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -427,10 +419,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/scripts/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index-uncompressed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        <state relative-caret-position="286">
+          <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#svg#0;n#div#1;n#body#0;n#html#0;n#!!top" />
