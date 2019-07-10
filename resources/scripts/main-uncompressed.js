@@ -200,8 +200,8 @@ function onPageReady() {
             }
             project_item_html += '<ul class="project-technologies">' + projectsTechnologies + ' </ul>';
             project_item_html += '<div class="project-links">';
-            project_item_html += '<a href="' + projectItem.githubLink + '" target="_blank"><i class="fab fa-github"></i></a>';
-            project_item_html += '<a href="' + projectItem.liveLink + '"   target="_blank"><i class="fas fa-external-link-alt"></i></a></div></div>';
+            project_item_html += '<a rel="nofollow" href="' + projectItem.githubLink + '" target="_blank"><i class="fab fa-github"></i></a>';
+            project_item_html += '<a rel="nofollow" href="' + projectItem.liveLink + '"   target="_blank"><i class="fas fa-external-link-alt"></i></a></div></div>';
             PROJECTS_CONTAINER.append(project_item_html);
         }
     }
