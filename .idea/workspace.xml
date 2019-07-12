@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,18 +245,17 @@
       <workItem from="1562526363929" duration="2560000" />
       <workItem from="1562615275794" duration="1244000" />
       <workItem from="1562704905277" duration="6790000" />
-      <workItem from="1562757688049" duration="1571000" />
+      <workItem from="1562757688049" duration="2353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65157000" />
+    <option name="totallyTimeSpent" value="65939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
