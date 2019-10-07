@@ -45,7 +45,7 @@
         "Bootstrap"
       ],
       "githubLink": "https://github.com/shahzaibzaheer/EZTaxi",
-      "liveLink": "https://shahzaibmughal.github.io/EZTaxi/index.html"
+      "liveLink": "https://shahzaibzaheer.github.io/EZTaxi/"
     },
     {
       "image": "https://shahzaibzaheer.com/resources/screenshorts/ifood.jpg",
@@ -69,7 +69,7 @@
         "JavaScript"
       ],
       "githubLink": "https://github.com/shahzaibzaheer/tictaktoe",
-      "liveLink": "https://shahzaibmughal.github.io/tictaktoe/index.html"
+      "liveLink": "https://tictactoe-86c84.web.app"
     },
     {
       "image": "https://shahzaibzaheer.com/resources/screenshorts/colorgame.jpg",
@@ -81,7 +81,7 @@
         "JavaScript"
       ],
       "githubLink": "https://github.com/shahzaibzaheer/ColorGame",
-      "liveLink": "https://shahzaibmughal.github.io/ColorGame/index.html"
+      "liveLink": "https://color-guessing-game-5639d.web.app"
     },
     {
       "image": "https://shahzaibzaheer.com/resources/screenshorts/todo.jpg",
@@ -93,7 +93,7 @@
         "JavaScript"
       ],
       "githubLink": "https://github.com/shahzaibzaheer/TodoList",
-      "liveLink": "https://shahzaibmughal.github.io/TodoList/index"
+      "liveLink": "https://shahzaibzaheer.github.io/TodoList/index.html"
     }
   ]
 }
