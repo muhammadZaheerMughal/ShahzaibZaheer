@@ -3,7 +3,7 @@ $(window).on('load', function () {
 });
 
 function onLoadingComplete() {
-    setTimeout(onPageLoadComplete, 2000);
+    setTimeout(onPageLoadComplete, 800);
 }
 
 function onPageLoadComplete() {

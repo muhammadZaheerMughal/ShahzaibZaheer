@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/scripts/temp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/scripts/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +13,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
               <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="113" lean-forward="true" selection-start-column="113" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/scripts/main-uncompressed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -56,6 +74,7 @@
       <find>&lt;a</find>
       <find>rel</find>
       <find>https://github.com/shahzaibMughal</find>
+      <find>onPageLoadComplete</find>
     </findStrings>
     <replaceStrings>
       <replace>var</replace>
@@ -72,13 +91,13 @@
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" />
         <option value="$PROJECT_DIR$/index0.html" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_import_fonts.scss" />
-        <option value="$PROJECT_DIR$/resources/scripts/main.js" />
-        <option value="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" />
         <option value="$PROJECT_DIR$/index-uncompressed.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/scripts/temp.js" />
         <option value="$PROJECT_DIR$/resources/scripts/data.json" />
+        <option value="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" />
+        <option value="$PROJECT_DIR$/resources/scripts/main.js" />
       </list>
     </option>
   </component>
@@ -206,17 +225,20 @@
       <workItem from="1572253907627" duration="1199000" />
       <workItem from="1572419844813" duration="662000" />
       <workItem from="1572978926027" duration="248000" />
+      <workItem from="1573057358105" duration="599000" />
+      <workItem from="1573122555403" duration="600000" />
+      <workItem from="1573379561754" duration="231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84941000" />
+    <option name="totallyTimeSpent" value="86371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23959732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25100672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -358,20 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3654" selection-start-column="3654" selection-end-column="3654" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/main-uncompressed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9568">
-          <caret line="368" column="4" selection-start-line="368" selection-start-column="4" selection-end-line="368" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5824">
@@ -405,6 +413,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/temp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -412,10 +427,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
+    <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
+        <state>
+          <caret column="113" lean-forward="true" selection-start-column="113" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/main-uncompressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
