@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/2d500853b2f50f2b54d734afa34ab0efa75936f7/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/2d500853b2f50f2b54d734afa34ab0efa75936f7/_variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/5ce01ecef955dccdfa0afc4c382a75b5acf05b5c/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/5ce01ecef955dccdfa0afc4c382a75b5acf05b5c/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/stylesheets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/stylesheets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="1274">
               <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
             </state>
           </provider>
@@ -27,16 +31,55 @@
         <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="113" lean-forward="true" selection-start-column="113" selection-end-column="113" />
+              <caret column="113" selection-start-column="113" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/scripts/main-uncompressed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/stylesheets/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <element signature="e#4817#6805#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/scripts/main-uncompressed.js">
+        <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_normalize.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="629">
+              <caret line="348" column="1" selection-start-line="348" selection-start-column="1" selection-end-line="348" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="24" column="25" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -88,16 +131,17 @@
       <list>
         <option value="$PROJECT_DIR$/vendor/scripts/waypoints.js" />
         <option value="$PROJECT_DIR$/resources/stylesheets/css/main.css" />
-        <option value="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" />
         <option value="$PROJECT_DIR$/index0.html" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_import_fonts.scss" />
-        <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" />
         <option value="$PROJECT_DIR$/index-uncompressed.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/scripts/temp.js" />
         <option value="$PROJECT_DIR$/resources/scripts/data.json" />
         <option value="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" />
         <option value="$PROJECT_DIR$/resources/scripts/main.js" />
+        <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" />
+        <option value="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" />
+        <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_normalize.scss" />
       </list>
     </option>
   </component>
@@ -133,6 +177,19 @@
               <item name="ShahzaibZaheer" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShahzaibZaheer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShahzaibZaheer" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShahzaibZaheer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShahzaibZaheer" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,18 +284,23 @@
       <workItem from="1572978926027" duration="248000" />
       <workItem from="1573057358105" duration="599000" />
       <workItem from="1573122555403" duration="600000" />
-      <workItem from="1573379561754" duration="231000" />
+      <workItem from="1573379561754" duration="848000" />
+      <workItem from="1573420874673" duration="599000" />
+      <workItem from="1573733424362" duration="1198000" />
+      <workItem from="1573986581629" duration="466000" />
+      <workItem from="1574004168670" duration="755000" />
+      <workItem from="1574623429020" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86371000" />
+    <option name="totallyTimeSpent" value="90206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25100672" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24228188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,7 +313,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.61898017" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5127479" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.9575071" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,34 +421,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/stylesheets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/scripts/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret column="15406" selection-end-column="140089" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5824">
-          <caret line="307" column="22" selection-start-line="307" selection-start-column="22" selection-end-line="307" selection-end-column="22" />
-          <folding>
-            <element signature="e#4817#6805#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -415,8 +453,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="1274">
           <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="113" selection-start-column="113" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/main-uncompressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/stylesheets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -427,17 +486,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
+    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="113" lean-forward="true" selection-start-column="113" selection-end-column="113" />
+        <state relative-caret-position="468">
+          <caret line="24" column="25" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/main-uncompressed.js">
+    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="1">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#4817#6805#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="348" column="1" selection-start-line="348" selection-start-column="1" selection-end-line="348" selection-end-column="1" />
         </state>
       </provider>
     </entry>
