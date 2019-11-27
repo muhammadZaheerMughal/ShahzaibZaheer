@@ -1,6 +1,24 @@
 {
   "projects": [
     {
+      "image": "https://shahzaibzaheer.com/resources/screenshorts/pal2000knives.jpg",
+      "title": "Pal 2000 Knives",
+      "description": "Damascus steel knives store, where people can buy all kinds of knives",
+      "technologies": [
+        "Wordpress, wooCommerce"
+      ],
+      "liveLink": "https://pal2000knives.com"
+    },
+    {
+      "image": "https://shahzaibzaheer.com/resources/screenshorts/achiDamascusKnives.jpg",
+      "title": "Achi Damascus Knives",
+      "description": "Online Knives store, where people can buy all kinds of knives",
+      "technologies": [
+        "Wordpress, wooCommerce"
+      ],
+      "liveLink": "https://achiDamascusKnives.com"
+    },
+    {
       "image": "https://shahzaibzaheer.com/resources/screenshorts/the_countries_project.jpg",
       "title": "Countries Info",
       "description": "This is single page application created using Vue front-end framework, This web app provide us information about all the countries in the world.",

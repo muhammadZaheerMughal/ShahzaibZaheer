@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="170345ac-852a-44dc-b0b7-31d486ba9732" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/screenshorts/achiDamascusKnives.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/screenshorts/pal2000knives.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/2d500853b2f50f2b54d734afa34ab0efa75936f7/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/2d500853b2f50f2b54d734afa34ab0efa75936f7/_variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/5ce01ecef955dccdfa0afc4c382a75b5acf05b5c/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/.sass-cache/5ce01ecef955dccdfa0afc4c382a75b5acf05b5c/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scripts/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scripts/data.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1274">
-              <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
+            <state relative-caret-position="468">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -48,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/stylesheets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="7410">
+              <caret line="285" column="3" selection-start-line="285" selection-start-column="3" selection-end-line="285" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -57,19 +54,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
+            <state relative-caret-position="52">
               <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-              <folding>
-                <element signature="e#4817#6805#0" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_normalize.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="525">
               <caret line="348" column="1" selection-start-line="348" selection-start-column="1" selection-end-line="348" selection-end-column="1" />
             </state>
           </provider>
@@ -78,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="624">
               <caret line="24" column="25" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
@@ -136,12 +130,12 @@
         <option value="$PROJECT_DIR$/index-uncompressed.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/scripts/temp.js" />
-        <option value="$PROJECT_DIR$/resources/scripts/data.json" />
         <option value="$PROJECT_DIR$/resources/scripts/main-uncompressed.js" />
         <option value="$PROJECT_DIR$/resources/scripts/main.js" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/main.scss" />
         <option value="$PROJECT_DIR$/resources/stylesheets/sass/partials/_normalize.scss" />
+        <option value="$PROJECT_DIR$/resources/scripts/data.json" />
       </list>
     </option>
   </component>
@@ -176,6 +170,18 @@
               <item name="ShahzaibZaheer" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShahzaibZaheer" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShahzaibZaheer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShahzaibZaheer" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshorts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShahzaibZaheer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShahzaibZaheer" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -200,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/screenshorts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -208,14 +214,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\screenshorts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\screenshorts" />
       <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer" />
       <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\scripts" />
-      <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\screenshorts" />
       <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shahzaib\Desktop\ShahzaibZaheer\resources\screenshorts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,12 +295,13 @@
       <workItem from="1573733424362" duration="1198000" />
       <workItem from="1573986581629" duration="466000" />
       <workItem from="1574004168670" duration="755000" />
-      <workItem from="1574623429020" duration="200000" />
+      <workItem from="1574623429020" duration="243000" />
+      <workItem from="1574888053064" duration="672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90206000" />
+    <option name="totallyTimeSpent" value="90921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -451,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1274">
-          <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -474,8 +474,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/stylesheets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="7410">
+          <caret line="285" column="3" selection-start-line="285" selection-start-column="3" selection-end-line="285" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="25" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -486,27 +500,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="24" column="25" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <element signature="e#4817#6805#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/stylesheets/sass/partials/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="525">
           <caret line="348" column="1" selection-start-line="348" selection-start-column="1" selection-end-line="348" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
