@@ -210,7 +210,7 @@ function onPageReady() {
         // console.log("CurrentCount: "+currentProjectsCount);
         // console.log("TotalCount: "+totalProjectsCount);
         if (currentProjectsCount < totalProjectsCount) {
-            var loadCount = currentProjectsCount + 2;   // we only want to load 2 projects at one request
+            var loadCount = currentProjectsCount + 4;   // we only want to load 2 projects at one request
             var projectItem = '';
             //append projects
             for (currentProjectsCount; currentProjectsCount < loadCount; currentProjectsCount++) {
